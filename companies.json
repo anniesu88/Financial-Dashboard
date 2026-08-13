@@ -1,0 +1,32 @@
+{
+  "GOOG": {
+    "name": "Alphabet Inc.",
+    "cik": 1652044,
+    "ir_url": "https://abc.xyz/investor/Earnings/default.aspx"
+  },
+  "AMZN": {
+    "name": "AMAZON COM INC",
+    "cik": 1018724,
+    "ir_url": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
+  },
+  "META": {
+    "name": "Meta Platforms, Inc.",
+    "cik": 1326801,
+    "ir_url": "https://investor.atmeta.com/financials/"
+  },
+  "MSFT": {
+    "name": "MICROSOFT CORP",
+    "cik": 789019,
+    "ir_url": "https://www.microsoft.com/en-us/Investor/sec-filings"
+  },
+  "ORCL": {
+    "name": "ORACLE CORP",
+    "cik": 1341439,
+    "ir_url": "https://investor.oracle.com/financials/default.aspx"
+  },
+  "PLTR": {
+    "name": "Palantir Technologies Inc.",
+    "cik": 1321655,
+    "ir_url": "https://investors.palantir.com/financials/quarterly-results"
+  }
+}

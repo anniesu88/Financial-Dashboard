@@ -1,0 +1,8 @@
+# Python 3.11
+# Runtime dependencies for the fetchers and the Streamlit dashboard.
+pandas==3.0.3
+streamlit==1.58.0
+plotly==6.9.0
+
+# Only needed for the PDF fallback pipeline (extract_financials_20260717.py)
+pdfplumber==0.11.10

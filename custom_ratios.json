@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Cash Ratio",
+    "numerator": {
+      "statement": "Consolidated Balance Sheets",
+      "line_item": "Cash and cash equivalents",
+      "average": false,
+      "absolute": false
+    },
+    "denominator": {
+      "statement": "Consolidated Balance Sheets",
+      "line_item": "Total current liabilities",
+      "average": false,
+      "absolute": false
+    },
+    "format": "percent"
+  },
+  {
+    "name": "Net product sales ratio",
+    "numerator": {
+      "statement": "Consolidated Statements of Income",
+      "line_item": "Net product sales",
+      "average": false,
+      "absolute": false
+    },
+    "denominator": {
+      "statement": "Consolidated Statements of Income",
+      "line_item": "Total net sales",
+      "average": false,
+      "absolute": false
+    },
+    "format": "percent"
+  }
+]

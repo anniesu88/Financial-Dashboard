@@ -1,0 +1,26 @@
+# --- Source filings (large; re-downloadable from SEC EDGAR at any time) ---
+input_pdf_file/
+parsed_pdf_file/
+*.pdf
+
+# --- Personal / internal working files (not part of the published project) ---
+Reference/
+Archive/
+CLAUDE.md
+MEMORY.md
+.claude/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

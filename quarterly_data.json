@@ -1,0 +1,3028 @@
+{
+  "companies": {
+    "AMZN": {
+      "entity_name": "AMAZON COM INC",
+      "fiscal_year_end_month": 12,
+      "fiscal_year_end": "December",
+      "quarters": [
+        {
+          "label": "FY2023 Q3",
+          "end": "2023-09-30",
+          "fiscal_year": 2023,
+          "quarter": 3,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 143083.0,
+            "Cost of Revenue": 75022.0,
+            "Gross Profit": 68061.0,
+            "Research and Development": null,
+            "Operating Income": 11188.0,
+            "Net Income": 9879.0,
+            "EPS (Diluted)": 0.94
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 49605.0,
+            "Marketable Securities (Current)": 14564.0,
+            "Accounts Receivable, Net": 43420.0,
+            "Total Current Assets": 142995.0,
+            "Total Assets": 486883.0,
+            "Total Current Liabilities": 145214.0,
+            "Long-term Debt": 61098.0,
+            "Total Liabilities": 303910.0,
+            "Total Stockholders' Equity": 182973.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 21217.0,
+            "Capital Expenditures": 12479.0,
+            "Free Cash Flow": 8738.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4757,
+            "Operating Margin": 0.0782,
+            "Net Profit Margin": 0.069,
+            "Current Ratio": 0.9847,
+            "Debt Ratio": 0.6242,
+            "Free Cash Flow ($M)": 8738.0,
+            "FCF Margin": 0.0611
+          }
+        },
+        {
+          "label": "FY2023 Q4",
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "quarter": 4,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 169961.0,
+            "Cost of Revenue": 92553.0,
+            "Gross Profit": 77408.0,
+            "Research and Development": null,
+            "Operating Income": 13209.0,
+            "Net Income": 10624.0,
+            "EPS (Diluted)": 1.01
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 73387.0,
+            "Marketable Securities (Current)": 13393.0,
+            "Accounts Receivable, Net": 52253.0,
+            "Total Current Assets": 172351.0,
+            "Total Assets": 527854.0,
+            "Total Current Liabilities": 164917.0,
+            "Long-term Debt": 58314.0,
+            "Total Liabilities": 325979.0,
+            "Total Stockholders' Equity": 201875.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 42465.0,
+            "Capital Expenditures": 14588.0,
+            "Free Cash Flow": 27877.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4554,
+            "Operating Margin": 0.0777,
+            "Net Profit Margin": 0.0625,
+            "Current Ratio": 1.0451,
+            "Debt Ratio": 0.6176,
+            "Free Cash Flow ($M)": 27877.0,
+            "FCF Margin": 0.164
+          }
+        },
+        {
+          "label": "FY2024 Q1",
+          "end": "2024-03-31",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 143313.0,
+            "Cost of Revenue": 72633.0,
+            "Gross Profit": 70680.0,
+            "Research and Development": null,
+            "Operating Income": 15307.0,
+            "Net Income": 10431.0,
+            "EPS (Diluted)": 0.98
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 72852.0,
+            "Marketable Securities (Current)": 12222.0,
+            "Accounts Receivable, Net": 47768.0,
+            "Total Current Assets": 163989.0,
+            "Total Assets": 530969.0,
+            "Total Current Liabilities": 152965.0,
+            "Long-term Debt": 57634.0,
+            "Total Liabilities": 314308.0,
+            "Total Stockholders' Equity": 216661.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 18989.0,
+            "Capital Expenditures": 14925.0,
+            "Free Cash Flow": 4064.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4932,
+            "Operating Margin": 0.1068,
+            "Net Profit Margin": 0.0728,
+            "Current Ratio": 1.0721,
+            "Debt Ratio": 0.592,
+            "Free Cash Flow ($M)": 4064.0,
+            "FCF Margin": 0.0284
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2024-06-30",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 147977.0,
+            "Cost of Revenue": 73785.0,
+            "Gross Profit": 74192.0,
+            "Research and Development": null,
+            "Operating Income": 14672.0,
+            "Net Income": 13485.0,
+            "EPS (Diluted)": 1.26
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 71178.0,
+            "Marketable Securities (Current)": 17914.0,
+            "Accounts Receivable, Net": 50106.0,
+            "Total Current Assets": 173307.0,
+            "Total Assets": 554818.0,
+            "Total Current Liabilities": 158172.0,
+            "Long-term Debt": 54889.0,
+            "Total Liabilities": 318371.0,
+            "Total Stockholders' Equity": 236447.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 25281.0,
+            "Capital Expenditures": 17620.0,
+            "Free Cash Flow": 7661.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5014,
+            "Operating Margin": 0.0992,
+            "Net Profit Margin": 0.0911,
+            "Current Ratio": 1.0957,
+            "Debt Ratio": 0.5738,
+            "Free Cash Flow ($M)": 7661.0,
+            "FCF Margin": 0.0518
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-09-30",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 158877.0,
+            "Cost of Revenue": 80977.0,
+            "Gross Profit": 77900.0,
+            "Research and Development": null,
+            "Operating Income": 17411.0,
+            "Net Income": 15328.0,
+            "EPS (Diluted)": 1.43
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 75091.0,
+            "Marketable Securities (Current)": 12960.0,
+            "Accounts Receivable, Net": 51638.0,
+            "Total Current Assets": 175792.0,
+            "Total Assets": 584626.0,
+            "Total Current Liabilities": 161477.0,
+            "Long-term Debt": 54890.0,
+            "Total Liabilities": 325475.0,
+            "Total Stockholders' Equity": 259151.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 25971.0,
+            "Capital Expenditures": 22620.0,
+            "Free Cash Flow": 3351.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4903,
+            "Operating Margin": 0.1096,
+            "Net Profit Margin": 0.0965,
+            "Current Ratio": 1.0887,
+            "Debt Ratio": 0.5567,
+            "Free Cash Flow ($M)": 3351.0,
+            "FCF Margin": 0.0211
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 187792.0,
+            "Cost of Revenue": 98893.0,
+            "Gross Profit": 88899.0,
+            "Research and Development": null,
+            "Operating Income": 21203.0,
+            "Net Income": 20004.0,
+            "EPS (Diluted)": 1.86
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 78779.0,
+            "Marketable Securities (Current)": 22423.0,
+            "Accounts Receivable, Net": 55451.0,
+            "Total Current Assets": 190867.0,
+            "Total Assets": 624894.0,
+            "Total Current Liabilities": 179431.0,
+            "Long-term Debt": 52623.0,
+            "Total Liabilities": 338924.0,
+            "Total Stockholders' Equity": 285970.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 45636.0,
+            "Capital Expenditures": 27834.0,
+            "Free Cash Flow": 17802.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4734,
+            "Operating Margin": 0.1129,
+            "Net Profit Margin": 0.1065,
+            "Current Ratio": 1.0637,
+            "Debt Ratio": 0.5424,
+            "Free Cash Flow ($M)": 17802.0,
+            "FCF Margin": 0.0948
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2025-03-31",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 155667.0,
+            "Cost of Revenue": 76976.0,
+            "Gross Profit": 78691.0,
+            "Research and Development": null,
+            "Operating Income": 18405.0,
+            "Net Income": 17127.0,
+            "EPS (Diluted)": 1.59
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 66207.0,
+            "Marketable Securities (Current)": 28358.0,
+            "Accounts Receivable, Net": 54216.0,
+            "Total Current Assets": 184645.0,
+            "Total Assets": 643256.0,
+            "Total Current Liabilities": 176171.0,
+            "Long-term Debt": 53374.0,
+            "Total Liabilities": 337389.0,
+            "Total Stockholders' Equity": 305867.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 17015.0,
+            "Capital Expenditures": 25019.0,
+            "Free Cash Flow": -8004.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5055,
+            "Operating Margin": 0.1182,
+            "Net Profit Margin": 0.11,
+            "Current Ratio": 1.0481,
+            "Debt Ratio": 0.5245,
+            "Free Cash Flow ($M)": -8004.0,
+            "FCF Margin": -0.0514
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2025-06-30",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 167702.0,
+            "Cost of Revenue": 80809.0,
+            "Gross Profit": 86893.0,
+            "Research and Development": null,
+            "Operating Income": 19171.0,
+            "Net Income": 18164.0,
+            "EPS (Diluted)": 1.68
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 57741.0,
+            "Marketable Securities (Current)": 35439.0,
+            "Accounts Receivable, Net": 57415.0,
+            "Total Current Assets": 191420.0,
+            "Total Assets": 682170.0,
+            "Total Current Liabilities": 186921.0,
+            "Long-term Debt": 50718.0,
+            "Total Liabilities": 348395.0,
+            "Total Stockholders' Equity": 333775.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 32515.0,
+            "Capital Expenditures": 32183.0,
+            "Free Cash Flow": 332.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5181,
+            "Operating Margin": 0.1143,
+            "Net Profit Margin": 0.1083,
+            "Current Ratio": 1.0241,
+            "Debt Ratio": 0.5107,
+            "Free Cash Flow ($M)": 332.0,
+            "FCF Margin": 0.002
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-09-30",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 180169.0,
+            "Cost of Revenue": 88670.0,
+            "Gross Profit": 91499.0,
+            "Research and Development": null,
+            "Operating Income": 17422.0,
+            "Net Income": 21187.0,
+            "EPS (Diluted)": 1.95
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 66922.0,
+            "Marketable Securities (Current)": 27275.0,
+            "Accounts Receivable, Net": 61175.0,
+            "Total Current Assets": 196866.0,
+            "Total Assets": 727921.0,
+            "Total Current Liabilities": 195196.0,
+            "Long-term Debt": 50742.0,
+            "Total Liabilities": 358290.0,
+            "Total Stockholders' Equity": 369631.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 35525.0,
+            "Capital Expenditures": 35095.0,
+            "Free Cash Flow": 430.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5079,
+            "Operating Margin": 0.0967,
+            "Net Profit Margin": 0.1176,
+            "Current Ratio": 1.0086,
+            "Debt Ratio": 0.4922,
+            "Free Cash Flow ($M)": 430.0,
+            "FCF Margin": 0.0024
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 213386.0,
+            "Cost of Revenue": 109959.0,
+            "Gross Profit": 103427.0,
+            "Research and Development": null,
+            "Operating Income": 24977.0,
+            "Net Income": 21192.0,
+            "EPS (Diluted)": 1.95
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 86810.0,
+            "Marketable Securities (Current)": 36219.0,
+            "Accounts Receivable, Net": 67729.0,
+            "Total Current Assets": 229083.0,
+            "Total Assets": 818042.0,
+            "Total Current Liabilities": 218005.0,
+            "Long-term Debt": 65648.0,
+            "Total Liabilities": 406977.0,
+            "Total Stockholders' Equity": 411065.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 54459.0,
+            "Capital Expenditures": 39522.0,
+            "Free Cash Flow": 14937.0
+          },
+          "ratios": {
+            "Gross Margin": 0.4847,
+            "Operating Margin": 0.1171,
+            "Net Profit Margin": 0.0993,
+            "Current Ratio": 1.0508,
+            "Debt Ratio": 0.4975,
+            "Free Cash Flow ($M)": 14937.0,
+            "FCF Margin": 0.07
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2026-03-31",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 181519.0,
+            "Cost of Revenue": 87463.0,
+            "Gross Profit": 94056.0,
+            "Research and Development": null,
+            "Operating Income": 23852.0,
+            "Net Income": 30255.0,
+            "EPS (Diluted)": 2.78
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 101816.0,
+            "Marketable Securities (Current)": 41273.0,
+            "Accounts Receivable, Net": 75532.0,
+            "Total Current Assets": 255155.0,
+            "Total Assets": 916630.0,
+            "Total Current Liabilities": 216756.0,
+            "Long-term Debt": 119074.0,
+            "Total Liabilities": 474716.0,
+            "Total Stockholders' Equity": 441914.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 26032.0,
+            "Capital Expenditures": 44203.0,
+            "Free Cash Flow": -18171.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5182,
+            "Operating Margin": 0.1314,
+            "Net Profit Margin": 0.1667,
+            "Current Ratio": 1.1772,
+            "Debt Ratio": 0.5179,
+            "Free Cash Flow ($M)": -18171.0,
+            "FCF Margin": -0.1001
+          }
+        },
+        {
+          "label": "FY2026 Q2",
+          "end": "2026-06-30",
+          "fiscal_year": 2026,
+          "quarter": 2,
+          "calendar_quarter": "2026 Q2",
+          "income": {
+            "Revenues": 200606.0,
+            "Cost of Revenue": 95778.0,
+            "Gross Profit": 104828.0,
+            "Research and Development": null,
+            "Operating Income": 27461.0,
+            "Net Income": 62647.0,
+            "EPS (Diluted)": 5.75
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 78213.0,
+            "Marketable Securities (Current)": 44775.0,
+            "Accounts Receivable, Net": 88092.0,
+            "Total Current Assets": 249264.0,
+            "Total Assets": 1095689.0,
+            "Total Current Liabilities": 241274.0,
+            "Long-term Debt": 128894.0,
+            "Total Liabilities": 544069.0,
+            "Total Stockholders' Equity": 551620.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 45387.0,
+            "Capital Expenditures": 54208.0,
+            "Free Cash Flow": -8821.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5226,
+            "Operating Margin": 0.1369,
+            "Net Profit Margin": 0.3123,
+            "Current Ratio": 1.0331,
+            "Debt Ratio": 0.4966,
+            "Free Cash Flow ($M)": -8821.0,
+            "FCF Margin": -0.044
+          }
+        }
+      ],
+      "name": "AMAZON COM INC",
+      "cik": 1018724,
+      "ir_url": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
+    },
+    "GOOG": {
+      "entity_name": "Alphabet Inc.",
+      "fiscal_year_end_month": 12,
+      "fiscal_year_end": "December",
+      "quarters": [
+        {
+          "label": "FY2023 Q3",
+          "end": "2023-09-30",
+          "fiscal_year": 2023,
+          "quarter": 3,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 76693.0,
+            "Cost of Revenue": 33229.0,
+            "Gross Profit": 43464.0,
+            "Research and Development": 11258.0,
+            "Operating Income": 21343.0,
+            "Net Income": 19689.0,
+            "EPS (Diluted)": 1.55
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 30702.0,
+            "Marketable Securities (Current)": 89233.0,
+            "Accounts Receivable, Net": 41020.0,
+            "Total Current Assets": 176310.0,
+            "Total Assets": 396711.0,
+            "Total Current Liabilities": 86295.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 123509.0,
+            "Total Stockholders' Equity": 273202.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 30656.0,
+            "Capital Expenditures": 8055.0,
+            "Free Cash Flow": 22601.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5667,
+            "Operating Margin": 0.2783,
+            "Net Profit Margin": 0.2567,
+            "Current Ratio": 2.0431,
+            "Debt Ratio": 0.3113,
+            "Free Cash Flow ($M)": 22601.0,
+            "FCF Margin": 0.2947
+          }
+        },
+        {
+          "label": "FY2023 Q4",
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "quarter": 4,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 86310.0,
+            "Cost of Revenue": 37575.0,
+            "Gross Profit": 48735.0,
+            "Research and Development": 12113.0,
+            "Operating Income": 23697.0,
+            "Net Income": 20687.0,
+            "EPS (Diluted)": 1.64
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 24048.0,
+            "Marketable Securities (Current)": 86868.0,
+            "Accounts Receivable, Net": 47964.0,
+            "Total Current Assets": 171530.0,
+            "Total Assets": 402392.0,
+            "Total Current Liabilities": 81814.0,
+            "Long-term Debt": 11870.0,
+            "Total Liabilities": 119013.0,
+            "Total Stockholders' Equity": 283379.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 18915.0,
+            "Capital Expenditures": 11019.0,
+            "Free Cash Flow": 7896.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5647,
+            "Operating Margin": 0.2746,
+            "Net Profit Margin": 0.2397,
+            "Current Ratio": 2.0966,
+            "Debt Ratio": 0.2958,
+            "Free Cash Flow ($M)": 7896.0,
+            "FCF Margin": 0.0915
+          }
+        },
+        {
+          "label": "FY2024 Q1",
+          "end": "2024-03-31",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 80539.0,
+            "Cost of Revenue": 33712.0,
+            "Gross Profit": 46827.0,
+            "Research and Development": 11903.0,
+            "Operating Income": 25472.0,
+            "Net Income": 23662.0,
+            "EPS (Diluted)": 1.89
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 24493.0,
+            "Marketable Securities (Current)": 83597.0,
+            "Accounts Receivable, Net": 44552.0,
+            "Total Current Assets": 165471.0,
+            "Total Assets": 407350.0,
+            "Total Current Liabilities": 76997.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 114506.0,
+            "Total Stockholders' Equity": 292844.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 28848.0,
+            "Capital Expenditures": 12012.0,
+            "Free Cash Flow": 16836.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5814,
+            "Operating Margin": 0.3163,
+            "Net Profit Margin": 0.2938,
+            "Current Ratio": 2.1491,
+            "Debt Ratio": 0.2811,
+            "Free Cash Flow ($M)": 16836.0,
+            "FCF Margin": 0.209
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2024-06-30",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 84742.0,
+            "Cost of Revenue": 35507.0,
+            "Gross Profit": 49235.0,
+            "Research and Development": 11860.0,
+            "Operating Income": 27425.0,
+            "Net Income": 23619.0,
+            "EPS (Diluted)": 1.89
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 27225.0,
+            "Marketable Securities (Current)": 73500.0,
+            "Accounts Receivable, Net": 47087.0,
+            "Total Current Assets": 161995.0,
+            "Total Assets": 414770.0,
+            "Total Current Liabilities": 77913.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 114017.0,
+            "Total Stockholders' Equity": 300753.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 26640.0,
+            "Capital Expenditures": 13186.0,
+            "Free Cash Flow": 13454.0
+          },
+          "ratios": {
+            "Gross Margin": 0.581,
+            "Operating Margin": 0.3236,
+            "Net Profit Margin": 0.2787,
+            "Current Ratio": 2.0792,
+            "Debt Ratio": 0.2749,
+            "Free Cash Flow ($M)": 13454.0,
+            "FCF Margin": 0.1588
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-09-30",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 88268.0,
+            "Cost of Revenue": 36474.0,
+            "Gross Profit": 51794.0,
+            "Research and Development": 12447.0,
+            "Operating Income": 28521.0,
+            "Net Income": 26301.0,
+            "EPS (Diluted)": 2.12
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 19959.0,
+            "Marketable Securities (Current)": 73271.0,
+            "Accounts Receivable, Net": 49104.0,
+            "Total Current Assets": 157541.0,
+            "Total Assets": 430266.0,
+            "Total Current Liabilities": 80803.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 116147.0,
+            "Total Stockholders' Equity": 314119.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 30698.0,
+            "Capital Expenditures": 13061.0,
+            "Free Cash Flow": 17637.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5868,
+            "Operating Margin": 0.3231,
+            "Net Profit Margin": 0.298,
+            "Current Ratio": 1.9497,
+            "Debt Ratio": 0.2699,
+            "Free Cash Flow ($M)": 17637.0,
+            "FCF Margin": 0.1998
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 96469.0,
+            "Cost of Revenue": 40613.0,
+            "Gross Profit": 55856.0,
+            "Research and Development": 13116.0,
+            "Operating Income": 30972.0,
+            "Net Income": 26536.0,
+            "EPS (Diluted)": 2.14
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 23466.0,
+            "Marketable Securities (Current)": 72191.0,
+            "Accounts Receivable, Net": 52340.0,
+            "Total Current Assets": 163711.0,
+            "Total Assets": 450256.0,
+            "Total Current Liabilities": 89122.0,
+            "Long-term Debt": 10883.0,
+            "Total Liabilities": 125172.0,
+            "Total Stockholders' Equity": 325084.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 39113.0,
+            "Capital Expenditures": 14276.0,
+            "Free Cash Flow": 24837.0
+          },
+          "ratios": {
+            "Gross Margin": 0.579,
+            "Operating Margin": 0.3211,
+            "Net Profit Margin": 0.2751,
+            "Current Ratio": 1.8369,
+            "Debt Ratio": 0.278,
+            "Free Cash Flow ($M)": 24837.0,
+            "FCF Margin": 0.2575
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2025-03-31",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 90234.0,
+            "Cost of Revenue": 36361.0,
+            "Gross Profit": 53873.0,
+            "Research and Development": 13556.0,
+            "Operating Income": 30606.0,
+            "Net Income": 34540.0,
+            "EPS (Diluted)": 2.81
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 23264.0,
+            "Marketable Securities (Current)": 72064.0,
+            "Accounts Receivable, Net": 51000.0,
+            "Total Current Assets": 162052.0,
+            "Total Assets": 475374.0,
+            "Total Current Liabilities": 91654.0,
+            "Long-term Debt": 10886.0,
+            "Total Liabilities": 130107.0,
+            "Total Stockholders' Equity": 345267.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 36150.0,
+            "Capital Expenditures": 17197.0,
+            "Free Cash Flow": 18953.0
+          },
+          "ratios": {
+            "Gross Margin": 0.597,
+            "Operating Margin": 0.3392,
+            "Net Profit Margin": 0.3828,
+            "Current Ratio": 1.7681,
+            "Debt Ratio": 0.2737,
+            "Free Cash Flow ($M)": 18953.0,
+            "FCF Margin": 0.21
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2025-06-30",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 96428.0,
+            "Cost of Revenue": 39039.0,
+            "Gross Profit": 57389.0,
+            "Research and Development": 13808.0,
+            "Operating Income": 31271.0,
+            "Net Income": 28196.0,
+            "EPS (Diluted)": 2.31
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 21036.0,
+            "Marketable Securities (Current)": 74112.0,
+            "Accounts Receivable, Net": 55048.0,
+            "Total Current Assets": 166216.0,
+            "Total Assets": 502053.0,
+            "Total Current Liabilities": 87310.0,
+            "Long-term Debt": 23607.0,
+            "Total Liabilities": 139137.0,
+            "Total Stockholders' Equity": 362916.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 27747.0,
+            "Capital Expenditures": 22446.0,
+            "Free Cash Flow": 5301.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5951,
+            "Operating Margin": 0.3243,
+            "Net Profit Margin": 0.2924,
+            "Current Ratio": 1.9037,
+            "Debt Ratio": 0.2771,
+            "Free Cash Flow ($M)": 5301.0,
+            "FCF Margin": 0.055
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-09-30",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 102346.0,
+            "Cost of Revenue": 41369.0,
+            "Gross Profit": 60977.0,
+            "Research and Development": 15151.0,
+            "Operating Income": 31228.0,
+            "Net Income": 34979.0,
+            "EPS (Diluted)": 2.87
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 23090.0,
+            "Marketable Securities (Current)": 75406.0,
+            "Accounts Receivable, Net": 57148.0,
+            "Total Current Assets": 173947.0,
+            "Total Assets": 536469.0,
+            "Total Current Liabilities": 99550.0,
+            "Long-term Debt": 21607.0,
+            "Total Liabilities": 149602.0,
+            "Total Stockholders' Equity": 386867.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 48414.0,
+            "Capital Expenditures": 23953.0,
+            "Free Cash Flow": 24461.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5958,
+            "Operating Margin": 0.3051,
+            "Net Profit Margin": 0.3418,
+            "Current Ratio": 1.7473,
+            "Debt Ratio": 0.2789,
+            "Free Cash Flow ($M)": 24461.0,
+            "FCF Margin": 0.239
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 113829.0,
+            "Cost of Revenue": 45767.0,
+            "Gross Profit": 68062.0,
+            "Research and Development": 18572.0,
+            "Operating Income": 35934.0,
+            "Net Income": 34455.0,
+            "EPS (Diluted)": 2.82
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 30708.0,
+            "Marketable Securities (Current)": 96135.0,
+            "Accounts Receivable, Net": 62886.0,
+            "Total Current Assets": 206038.0,
+            "Total Assets": 595281.0,
+            "Total Current Liabilities": 102745.0,
+            "Long-term Debt": 46547.0,
+            "Total Liabilities": 180016.0,
+            "Total Stockholders' Equity": 415265.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 52402.0,
+            "Capital Expenditures": 27851.0,
+            "Free Cash Flow": 24551.0
+          },
+          "ratios": {
+            "Gross Margin": 0.5979,
+            "Operating Margin": 0.3157,
+            "Net Profit Margin": 0.3027,
+            "Current Ratio": 2.0053,
+            "Debt Ratio": 0.3024,
+            "Free Cash Flow ($M)": 24551.0,
+            "FCF Margin": 0.2157
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2026-03-31",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 109896.0,
+            "Cost of Revenue": 41271.0,
+            "Gross Profit": 68625.0,
+            "Research and Development": 17032.0,
+            "Operating Income": 39696.0,
+            "Net Income": 62578.0,
+            "EPS (Diluted)": 5.11
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 38063.0,
+            "Marketable Securities (Current)": 88777.0,
+            "Accounts Receivable, Net": 62999.0,
+            "Total Current Assets": 213753.0,
+            "Total Assets": 703919.0,
+            "Total Current Liabilities": 111188.0,
+            "Long-term Debt": 77501.0,
+            "Total Liabilities": 225173.0,
+            "Total Stockholders' Equity": 478746.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 45790.0,
+            "Capital Expenditures": 35674.0,
+            "Free Cash Flow": 10116.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6245,
+            "Operating Margin": 0.3612,
+            "Net Profit Margin": 0.5694,
+            "Current Ratio": 1.9224,
+            "Debt Ratio": 0.3199,
+            "Free Cash Flow ($M)": 10116.0,
+            "FCF Margin": 0.0921
+          }
+        },
+        {
+          "label": "FY2026 Q2",
+          "end": "2026-06-30",
+          "fiscal_year": 2026,
+          "quarter": 2,
+          "calendar_quarter": "2026 Q2",
+          "income": {
+            "Revenues": 119796.0,
+            "Cost of Revenue": 45943.0,
+            "Gross Profit": 73853.0,
+            "Research and Development": 18219.0,
+            "Operating Income": 40770.0,
+            "Net Income": 112193.0,
+            "EPS (Diluted)": 9.11
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 55911.0,
+            "Marketable Securities (Current)": 186563.0,
+            "Accounts Receivable, Net": 69175.0,
+            "Total Current Assets": 343524.0,
+            "Total Assets": 921983.0,
+            "Total Current Liabilities": 126111.0,
+            "Long-term Debt": 98165.0,
+            "Total Liabilities": 281503.0,
+            "Total Stockholders' Equity": 640480.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 39069.0,
+            "Capital Expenditures": 44924.0,
+            "Free Cash Flow": -5855.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6165,
+            "Operating Margin": 0.3403,
+            "Net Profit Margin": 0.9365,
+            "Current Ratio": 2.724,
+            "Debt Ratio": 0.3053,
+            "Free Cash Flow ($M)": -5855.0,
+            "FCF Margin": -0.0489
+          }
+        }
+      ],
+      "name": "Alphabet Inc.",
+      "cik": 1652044,
+      "ir_url": "https://abc.xyz/investor/Earnings/default.aspx"
+    },
+    "META": {
+      "entity_name": "Meta Platforms, Inc.",
+      "fiscal_year_end_month": 12,
+      "fiscal_year_end": "December",
+      "quarters": [
+        {
+          "label": "FY2023 Q2",
+          "end": "2023-06-30",
+          "fiscal_year": 2023,
+          "quarter": 2,
+          "calendar_quarter": "2023 Q2",
+          "income": {
+            "Revenues": 31999.0,
+            "Cost of Revenue": 5945.0,
+            "Gross Profit": 26054.0,
+            "Research and Development": 9344.0,
+            "Operating Income": 9392.0,
+            "Net Income": 7788.0,
+            "EPS (Diluted)": 2.98
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 28785.0,
+            "Marketable Securities (Current)": 24661.0,
+            "Accounts Receivable, Net": 12511.0,
+            "Total Current Assets": 69560.0,
+            "Total Assets": 206688.0,
+            "Total Current Liabilities": 29921.0,
+            "Long-term Debt": 18382.0,
+            "Total Liabilities": 72655.0,
+            "Total Stockholders' Equity": 134033.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 17309.0,
+            "Capital Expenditures": 6134.0,
+            "Free Cash Flow": 11175.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8142,
+            "Operating Margin": 0.2935,
+            "Net Profit Margin": 0.2434,
+            "Current Ratio": 2.3248,
+            "Debt Ratio": 0.3515,
+            "Free Cash Flow ($M)": 11175.0,
+            "FCF Margin": 0.3492
+          }
+        },
+        {
+          "label": "FY2023 Q3",
+          "end": "2023-09-30",
+          "fiscal_year": 2023,
+          "quarter": 3,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 34146.0,
+            "Cost of Revenue": 6210.0,
+            "Gross Profit": 27936.0,
+            "Research and Development": 9241.0,
+            "Operating Income": 13748.0,
+            "Net Income": 11583.0,
+            "EPS (Diluted)": 4.39
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 36890.0,
+            "Marketable Securities (Current)": 24233.0,
+            "Accounts Receivable, Net": 12944.0,
+            "Total Current Assets": 78378.0,
+            "Total Assets": 216274.0,
+            "Total Current Liabilities": 30531.0,
+            "Long-term Debt": 18383.0,
+            "Total Liabilities": 73401.0,
+            "Total Stockholders' Equity": 142873.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 20402.0,
+            "Capital Expenditures": 6496.0,
+            "Free Cash Flow": 13906.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8181,
+            "Operating Margin": 0.4026,
+            "Net Profit Margin": 0.3392,
+            "Current Ratio": 2.5672,
+            "Debt Ratio": 0.3394,
+            "Free Cash Flow ($M)": 13906.0,
+            "FCF Margin": 0.4073
+          }
+        },
+        {
+          "label": "FY2023 Q4",
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "quarter": 4,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 40111.0,
+            "Cost of Revenue": 7695.0,
+            "Gross Profit": 32416.0,
+            "Research and Development": 10517.0,
+            "Operating Income": 16384.0,
+            "Net Income": 14017.0,
+            "EPS (Diluted)": 5.31
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 41862.0,
+            "Marketable Securities (Current)": 23541.0,
+            "Accounts Receivable, Net": 16169.0,
+            "Total Current Assets": 85365.0,
+            "Total Assets": 229623.0,
+            "Total Current Liabilities": 31960.0,
+            "Long-term Debt": 18385.0,
+            "Total Liabilities": 76455.0,
+            "Total Stockholders' Equity": 153168.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 19404.0,
+            "Capital Expenditures": 7592.0,
+            "Free Cash Flow": 11812.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8082,
+            "Operating Margin": 0.4085,
+            "Net Profit Margin": 0.3495,
+            "Current Ratio": 2.671,
+            "Debt Ratio": 0.333,
+            "Free Cash Flow ($M)": 11812.0,
+            "FCF Margin": 0.2945
+          }
+        },
+        {
+          "label": "FY2024 Q1",
+          "end": "2024-03-31",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 36455.0,
+            "Cost of Revenue": 6640.0,
+            "Gross Profit": 29815.0,
+            "Research and Development": 9978.0,
+            "Operating Income": 13818.0,
+            "Net Income": 12369.0,
+            "EPS (Diluted)": 4.71
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 32307.0,
+            "Marketable Securities (Current)": 25813.0,
+            "Accounts Receivable, Net": 13430.0,
+            "Total Current Assets": 75330.0,
+            "Total Assets": 222844.0,
+            "Total Current Liabilities": 28101.0,
+            "Long-term Debt": 18387.0,
+            "Total Liabilities": 73315.0,
+            "Total Stockholders' Equity": 149529.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 19246.0,
+            "Capital Expenditures": 6400.0,
+            "Free Cash Flow": 12846.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8179,
+            "Operating Margin": 0.379,
+            "Net Profit Margin": 0.3393,
+            "Current Ratio": 2.6807,
+            "Debt Ratio": 0.329,
+            "Free Cash Flow ($M)": 12846.0,
+            "FCF Margin": 0.3524
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2024-06-30",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 39071.0,
+            "Cost of Revenue": 7308.0,
+            "Gross Profit": 31763.0,
+            "Research and Development": 10537.0,
+            "Operating Income": 14847.0,
+            "Net Income": 13465.0,
+            "EPS (Diluted)": 5.16
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 32045.0,
+            "Marketable Securities (Current)": 26035.0,
+            "Accounts Receivable, Net": 14505.0,
+            "Total Current Assets": 76431.0,
+            "Total Assets": 230238.0,
+            "Total Current Liabilities": 27004.0,
+            "Long-term Debt": 18389.0,
+            "Total Liabilities": 73475.0,
+            "Total Stockholders' Equity": 156763.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 19370.0,
+            "Capital Expenditures": 8173.0,
+            "Free Cash Flow": 11197.0
+          },
+          "ratios": {
+            "Gross Margin": 0.813,
+            "Operating Margin": 0.38,
+            "Net Profit Margin": 0.3446,
+            "Current Ratio": 2.8304,
+            "Debt Ratio": 0.3191,
+            "Free Cash Flow ($M)": 11197.0,
+            "FCF Margin": 0.2866
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-09-30",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 40589.0,
+            "Cost of Revenue": 7375.0,
+            "Gross Profit": 33214.0,
+            "Research and Development": 11177.0,
+            "Operating Income": 17350.0,
+            "Net Income": 15688.0,
+            "EPS (Diluted)": 6.03
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 43852.0,
+            "Marketable Securities (Current)": 27048.0,
+            "Accounts Receivable, Net": 14700.0,
+            "Total Current Assets": 91067.0,
+            "Total Assets": 256408.0,
+            "Total Current Liabilities": 33330.0,
+            "Long-term Debt": 28823.0,
+            "Total Liabilities": 91879.0,
+            "Total Stockholders' Equity": 164529.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 24724.0,
+            "Capital Expenditures": 8258.0,
+            "Free Cash Flow": 16466.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8183,
+            "Operating Margin": 0.4275,
+            "Net Profit Margin": 0.3865,
+            "Current Ratio": 2.7323,
+            "Debt Ratio": 0.3583,
+            "Free Cash Flow ($M)": 16466.0,
+            "FCF Margin": 0.4057
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 48385.0,
+            "Cost of Revenue": 8839.0,
+            "Gross Profit": 39546.0,
+            "Research and Development": 12180.0,
+            "Operating Income": 23364.0,
+            "Net Income": 20838.0,
+            "EPS (Diluted)": 7.98
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 43889.0,
+            "Marketable Securities (Current)": 33926.0,
+            "Accounts Receivable, Net": 16994.0,
+            "Total Current Assets": 100045.0,
+            "Total Assets": 276054.0,
+            "Total Current Liabilities": 33596.0,
+            "Long-term Debt": 28826.0,
+            "Total Liabilities": 93417.0,
+            "Total Stockholders' Equity": 182637.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 27988.0,
+            "Capital Expenditures": 14425.0,
+            "Free Cash Flow": 13563.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8173,
+            "Operating Margin": 0.4829,
+            "Net Profit Margin": 0.4307,
+            "Current Ratio": 2.9779,
+            "Debt Ratio": 0.3384,
+            "Free Cash Flow ($M)": 13563.0,
+            "FCF Margin": 0.2803
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2025-03-31",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 42314.0,
+            "Cost of Revenue": 7572.0,
+            "Gross Profit": 34742.0,
+            "Research and Development": 12150.0,
+            "Operating Income": 17555.0,
+            "Net Income": 16644.0,
+            "EPS (Diluted)": 6.43
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 28750.0,
+            "Marketable Securities (Current)": 41480.0,
+            "Accounts Receivable, Net": 14514.0,
+            "Total Current Assets": 90227.0,
+            "Total Assets": 280213.0,
+            "Total Current Liabilities": 33890.0,
+            "Long-term Debt": 28829.0,
+            "Total Liabilities": 95184.0,
+            "Total Stockholders' Equity": 185029.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 24026.0,
+            "Capital Expenditures": 12941.0,
+            "Free Cash Flow": 11085.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8211,
+            "Operating Margin": 0.4149,
+            "Net Profit Margin": 0.3933,
+            "Current Ratio": 2.6623,
+            "Debt Ratio": 0.3397,
+            "Free Cash Flow ($M)": 11085.0,
+            "FCF Margin": 0.262
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2025-06-30",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 47516.0,
+            "Cost of Revenue": 8491.0,
+            "Gross Profit": 39025.0,
+            "Research and Development": 12942.0,
+            "Operating Income": 20441.0,
+            "Net Income": 18337.0,
+            "EPS (Diluted)": 7.14
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 12005.0,
+            "Marketable Securities (Current)": 35066.0,
+            "Accounts Receivable, Net": 16561.0,
+            "Total Current Assets": 73613.0,
+            "Total Assets": 294744.0,
+            "Total Current Liabilities": 37305.0,
+            "Long-term Debt": 28832.0,
+            "Total Liabilities": 99674.0,
+            "Total Stockholders' Equity": 195070.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 25561.0,
+            "Capital Expenditures": 16538.0,
+            "Free Cash Flow": 9023.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8213,
+            "Operating Margin": 0.4302,
+            "Net Profit Margin": 0.3859,
+            "Current Ratio": 1.9733,
+            "Debt Ratio": 0.3382,
+            "Free Cash Flow ($M)": 9023.0,
+            "FCF Margin": 0.1899
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-09-30",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 51242.0,
+            "Cost of Revenue": 9206.0,
+            "Gross Profit": 42036.0,
+            "Research and Development": 15144.0,
+            "Operating Income": 20535.0,
+            "Net Income": 2709.0,
+            "EPS (Diluted)": 1.05
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10187.0,
+            "Marketable Securities (Current)": 34261.0,
+            "Accounts Receivable, Net": 17297.0,
+            "Total Current Assets": 73118.0,
+            "Total Assets": 303844.0,
+            "Total Current Liabilities": 36958.0,
+            "Long-term Debt": 28834.0,
+            "Total Liabilities": 109778.0,
+            "Total Stockholders' Equity": 194066.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 29999.0,
+            "Capital Expenditures": 18829.0,
+            "Free Cash Flow": 11170.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8203,
+            "Operating Margin": 0.4007,
+            "Net Profit Margin": 0.0529,
+            "Current Ratio": 1.9784,
+            "Debt Ratio": 0.3613,
+            "Free Cash Flow ($M)": 11170.0,
+            "FCF Margin": 0.218
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 59893.0,
+            "Cost of Revenue": 10906.0,
+            "Gross Profit": 48987.0,
+            "Research and Development": 17135.0,
+            "Operating Income": 24745.0,
+            "Net Income": 22768.0,
+            "EPS (Diluted)": 8.87
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 35873.0,
+            "Marketable Securities (Current)": 45719.0,
+            "Accounts Receivable, Net": 19769.0,
+            "Total Current Assets": 108722.0,
+            "Total Assets": 366021.0,
+            "Total Current Liabilities": 41836.0,
+            "Long-term Debt": 58744.0,
+            "Total Liabilities": 148778.0,
+            "Total Stockholders' Equity": 217243.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 36214.0,
+            "Capital Expenditures": 21383.0,
+            "Free Cash Flow": 14831.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8179,
+            "Operating Margin": 0.4132,
+            "Net Profit Margin": 0.3801,
+            "Current Ratio": 2.5988,
+            "Debt Ratio": 0.4065,
+            "Free Cash Flow ($M)": 14831.0,
+            "FCF Margin": 0.2476
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2026-03-31",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 56311.0,
+            "Cost of Revenue": 10218.0,
+            "Gross Profit": 46093.0,
+            "Research and Development": 17699.0,
+            "Operating Income": 22872.0,
+            "Net Income": 26773.0,
+            "EPS (Diluted)": 10.44
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 23426.0,
+            "Marketable Securities (Current)": 57754.0,
+            "Accounts Receivable, Net": 17470.0,
+            "Total Current Assets": 109765.0,
+            "Total Assets": 395250.0,
+            "Total Current Liabilities": 46753.0,
+            "Long-term Debt": 58748.0,
+            "Total Liabilities": 151569.0,
+            "Total Stockholders' Equity": 243681.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 32226.0,
+            "Capital Expenditures": 18997.0,
+            "Free Cash Flow": 13229.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8185,
+            "Operating Margin": 0.4062,
+            "Net Profit Margin": 0.4754,
+            "Current Ratio": 2.3478,
+            "Debt Ratio": 0.3835,
+            "Free Cash Flow ($M)": 13229.0,
+            "FCF Margin": 0.2349
+          }
+        }
+      ],
+      "name": "Meta Platforms, Inc.",
+      "cik": 1326801,
+      "ir_url": "https://investor.atmeta.com/financials/"
+    },
+    "MSFT": {
+      "entity_name": "MICROSOFT CORPORATION",
+      "fiscal_year_end_month": 6,
+      "fiscal_year_end": "June",
+      "quarters": [
+        {
+          "label": "FY2024 Q1",
+          "end": "2023-09-30",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 56517.0,
+            "Cost of Revenue": 16302.0,
+            "Gross Profit": 40215.0,
+            "Research and Development": 6659.0,
+            "Operating Income": 26895.0,
+            "Net Income": 22291.0,
+            "EPS (Diluted)": 2.99
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 80452.0,
+            "Marketable Securities (Current)": 63499.0,
+            "Accounts Receivable, Net": 36953.0,
+            "Total Current Assets": 207586.0,
+            "Total Assets": 445785.0,
+            "Total Current Liabilities": 124792.0,
+            "Long-term Debt": 41946.0,
+            "Total Liabilities": 225071.0,
+            "Total Stockholders' Equity": 220714.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 30583.0,
+            "Capital Expenditures": 9917.0,
+            "Free Cash Flow": 20666.0
+          },
+          "ratios": {
+            "Gross Margin": 0.7116,
+            "Operating Margin": 0.4759,
+            "Net Profit Margin": 0.3944,
+            "Current Ratio": 1.6635,
+            "Debt Ratio": 0.5049,
+            "Free Cash Flow ($M)": 20666.0,
+            "FCF Margin": 0.3657
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2023-12-31",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 62020.0,
+            "Cost of Revenue": 19623.0,
+            "Gross Profit": 42397.0,
+            "Research and Development": 7142.0,
+            "Operating Income": 27032.0,
+            "Net Income": 21870.0,
+            "EPS (Diluted)": 2.93
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 17305.0,
+            "Marketable Securities (Current)": 63712.0,
+            "Accounts Receivable, Net": 42831.0,
+            "Total Current Assets": 147393.0,
+            "Total Assets": 470558.0,
+            "Total Current Liabilities": 121016.0,
+            "Long-term Debt": 44928.0,
+            "Total Liabilities": 232290.0,
+            "Total Stockholders' Equity": 238268.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 18853.0,
+            "Capital Expenditures": 9735.0,
+            "Free Cash Flow": 9118.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6836,
+            "Operating Margin": 0.4359,
+            "Net Profit Margin": 0.3526,
+            "Current Ratio": 1.218,
+            "Debt Ratio": 0.4936,
+            "Free Cash Flow ($M)": 9118.0,
+            "FCF Margin": 0.147
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-03-31",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 61858.0,
+            "Cost of Revenue": 18505.0,
+            "Gross Profit": 43353.0,
+            "Research and Development": 7653.0,
+            "Operating Income": 27581.0,
+            "Net Income": 21939.0,
+            "EPS (Diluted)": 2.94
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 19634.0,
+            "Marketable Securities (Current)": 60387.0,
+            "Accounts Receivable, Net": 44029.0,
+            "Total Current Assets": 147180.0,
+            "Total Assets": 484275.0,
+            "Total Current Liabilities": 118525.0,
+            "Long-term Debt": 42658.0,
+            "Total Liabilities": 231123.0,
+            "Total Stockholders' Equity": 253152.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 31917.0,
+            "Capital Expenditures": 10952.0,
+            "Free Cash Flow": 20965.0
+          },
+          "ratios": {
+            "Gross Margin": 0.7008,
+            "Operating Margin": 0.4459,
+            "Net Profit Margin": 0.3547,
+            "Current Ratio": 1.2418,
+            "Debt Ratio": 0.4773,
+            "Free Cash Flow ($M)": 20965.0,
+            "FCF Margin": 0.3389
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-06-30",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 64727.0,
+            "Cost of Revenue": 19684.0,
+            "Gross Profit": 45043.0,
+            "Research and Development": 8056.0,
+            "Operating Income": 27925.0,
+            "Net Income": 22036.0,
+            "EPS (Diluted)": 2.95
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 18315.0,
+            "Marketable Securities (Current)": 57228.0,
+            "Accounts Receivable, Net": 56924.0,
+            "Total Current Assets": 159734.0,
+            "Total Assets": 512163.0,
+            "Total Current Liabilities": 125286.0,
+            "Long-term Debt": 42688.0,
+            "Total Liabilities": 243686.0,
+            "Total Stockholders' Equity": 268477.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 37195.0,
+            "Capital Expenditures": 13873.0,
+            "Free Cash Flow": 23322.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6959,
+            "Operating Margin": 0.4314,
+            "Net Profit Margin": 0.3404,
+            "Current Ratio": 1.275,
+            "Debt Ratio": 0.4758,
+            "Free Cash Flow ($M)": 23322.0,
+            "FCF Margin": 0.3603
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2024-09-30",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 65585.0,
+            "Cost of Revenue": 20099.0,
+            "Gross Profit": 45486.0,
+            "Research and Development": 7544.0,
+            "Operating Income": 30552.0,
+            "Net Income": 24667.0,
+            "EPS (Diluted)": 3.3
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 20840.0,
+            "Marketable Securities (Current)": 57588.0,
+            "Accounts Receivable, Net": 44148.0,
+            "Total Current Assets": 149926.0,
+            "Total Assets": 523013.0,
+            "Total Current Liabilities": 115200.0,
+            "Long-term Debt": 42868.0,
+            "Total Liabilities": 235290.0,
+            "Total Stockholders' Equity": 287723.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 34180.0,
+            "Capital Expenditures": 14923.0,
+            "Free Cash Flow": 19257.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6935,
+            "Operating Margin": 0.4658,
+            "Net Profit Margin": 0.3761,
+            "Current Ratio": 1.3014,
+            "Debt Ratio": 0.4499,
+            "Free Cash Flow ($M)": 19257.0,
+            "FCF Margin": 0.2936
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2024-12-31",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 69632.0,
+            "Cost of Revenue": 21799.0,
+            "Gross Profit": 47833.0,
+            "Research and Development": 7917.0,
+            "Operating Income": 31653.0,
+            "Net Income": 24108.0,
+            "EPS (Diluted)": 3.23
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 17482.0,
+            "Marketable Securities (Current)": 54073.0,
+            "Accounts Receivable, Net": 48188.0,
+            "Total Current Assets": 147080.0,
+            "Total Assets": 533898.0,
+            "Total Current Liabilities": 108882.0,
+            "Long-term Debt": 39722.0,
+            "Total Liabilities": 231203.0,
+            "Total Stockholders' Equity": 302695.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 22291.0,
+            "Capital Expenditures": 15804.0,
+            "Free Cash Flow": 6487.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6869,
+            "Operating Margin": 0.4546,
+            "Net Profit Margin": 0.3462,
+            "Current Ratio": 1.3508,
+            "Debt Ratio": 0.433,
+            "Free Cash Flow ($M)": 6487.0,
+            "FCF Margin": 0.0932
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-03-31",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 70066.0,
+            "Cost of Revenue": 21919.0,
+            "Gross Profit": 48147.0,
+            "Research and Development": 8198.0,
+            "Operating Income": 32000.0,
+            "Net Income": 25824.0,
+            "EPS (Diluted)": 3.46
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 28828.0,
+            "Marketable Securities (Current)": 50790.0,
+            "Accounts Receivable, Net": 51700.0,
+            "Total Current Assets": 156644.0,
+            "Total Assets": 562624.0,
+            "Total Current Liabilities": 114206.0,
+            "Long-term Debt": 39882.0,
+            "Total Liabilities": 240733.0,
+            "Total Stockholders' Equity": 321891.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 37044.0,
+            "Capital Expenditures": 16745.0,
+            "Free Cash Flow": 20299.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6872,
+            "Operating Margin": 0.4567,
+            "Net Profit Margin": 0.3686,
+            "Current Ratio": 1.3716,
+            "Debt Ratio": 0.4279,
+            "Free Cash Flow ($M)": 20299.0,
+            "FCF Margin": 0.2897
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-06-30",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 76441.0,
+            "Cost of Revenue": 24014.0,
+            "Gross Profit": 52427.0,
+            "Research and Development": 8829.0,
+            "Operating Income": 34323.0,
+            "Net Income": 27233.0,
+            "EPS (Diluted)": 3.65
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 30242.0,
+            "Marketable Securities (Current)": 64323.0,
+            "Accounts Receivable, Net": 69905.0,
+            "Total Current Assets": 191131.0,
+            "Total Assets": 619003.0,
+            "Total Current Liabilities": 141218.0,
+            "Long-term Debt": 40152.0,
+            "Total Liabilities": 275524.0,
+            "Total Stockholders' Equity": 343479.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 42647.0,
+            "Capital Expenditures": 17079.0,
+            "Free Cash Flow": 25568.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6858,
+            "Operating Margin": 0.449,
+            "Net Profit Margin": 0.3563,
+            "Current Ratio": 1.3534,
+            "Debt Ratio": 0.4451,
+            "Free Cash Flow ($M)": 25568.0,
+            "FCF Margin": 0.3345
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2025-09-30",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 77673.0,
+            "Cost of Revenue": 24043.0,
+            "Gross Profit": 53630.0,
+            "Research and Development": 8146.0,
+            "Operating Income": 37961.0,
+            "Net Income": 27747.0,
+            "EPS (Diluted)": 3.72
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 28849.0,
+            "Marketable Securities (Current)": 73163.0,
+            "Accounts Receivable, Net": 52894.0,
+            "Total Current Assets": 189066.0,
+            "Total Assets": 636351.0,
+            "Total Current Liabilities": 134996.0,
+            "Long-term Debt": 35376.0,
+            "Total Liabilities": 273275.0,
+            "Total Stockholders' Equity": 363076.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 45057.0,
+            "Capital Expenditures": 19394.0,
+            "Free Cash Flow": 25663.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6905,
+            "Operating Margin": 0.4887,
+            "Net Profit Margin": 0.3572,
+            "Current Ratio": 1.4005,
+            "Debt Ratio": 0.4294,
+            "Free Cash Flow ($M)": 25663.0,
+            "FCF Margin": 0.3304
+          }
+        },
+        {
+          "label": "FY2026 Q2",
+          "end": "2025-12-31",
+          "fiscal_year": 2026,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 81273.0,
+            "Cost of Revenue": 25978.0,
+            "Gross Profit": 55295.0,
+            "Research and Development": 8504.0,
+            "Operating Income": 38275.0,
+            "Net Income": 38458.0,
+            "EPS (Diluted)": 5.16
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 24296.0,
+            "Marketable Securities (Current)": 65166.0,
+            "Accounts Receivable, Net": 56535.0,
+            "Total Current Assets": 180190.0,
+            "Total Assets": 665302.0,
+            "Total Current Liabilities": 130005.0,
+            "Long-term Debt": 35425.0,
+            "Total Liabilities": 274427.0,
+            "Total Stockholders' Equity": 390875.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 35758.0,
+            "Capital Expenditures": 29876.0,
+            "Free Cash Flow": 5882.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6804,
+            "Operating Margin": 0.4709,
+            "Net Profit Margin": 0.4732,
+            "Current Ratio": 1.386,
+            "Debt Ratio": 0.4125,
+            "Free Cash Flow ($M)": 5882.0,
+            "FCF Margin": 0.0724
+          }
+        },
+        {
+          "label": "FY2026 Q3",
+          "end": "2026-03-31",
+          "fiscal_year": 2026,
+          "quarter": 3,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 82886.0,
+            "Cost of Revenue": 26828.0,
+            "Gross Profit": 56058.0,
+            "Research and Development": 8915.0,
+            "Operating Income": 38398.0,
+            "Net Income": 31778.0,
+            "EPS (Diluted)": 4.27
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 32105.0,
+            "Marketable Securities (Current)": 46167.0,
+            "Accounts Receivable, Net": 60041.0,
+            "Total Current Assets": 175329.0,
+            "Total Assets": 694228.0,
+            "Total Current Liabilities": 136661.0,
+            "Long-term Debt": 31423.0,
+            "Total Liabilities": 279861.0,
+            "Total Stockholders' Equity": 414367.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 46679.0,
+            "Capital Expenditures": 30876.0,
+            "Free Cash Flow": 15803.0
+          },
+          "ratios": {
+            "Gross Margin": 0.6763,
+            "Operating Margin": 0.4633,
+            "Net Profit Margin": 0.3834,
+            "Current Ratio": 1.2829,
+            "Debt Ratio": 0.4031,
+            "Free Cash Flow ($M)": 15803.0,
+            "FCF Margin": 0.1907
+          }
+        },
+        {
+          "label": "FY2026 Q4",
+          "end": "2026-06-30",
+          "fiscal_year": 2026,
+          "quarter": 4,
+          "calendar_quarter": "2026 Q2",
+          "income": {
+            "Revenues": 90007.0,
+            "Cost of Revenue": 29525.0,
+            "Gross Profit": 60482.0,
+            "Research and Development": 9997.0,
+            "Operating Income": 40603.0,
+            "Net Income": 35766.0,
+            "EPS (Diluted)": 4.81
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 20935.0,
+            "Marketable Securities (Current)": 55908.0,
+            "Accounts Receivable, Net": 80876.0,
+            "Total Current Assets": 207710.0,
+            "Total Assets": 758376.0,
+            "Total Current Liabilities": 168825.0,
+            "Long-term Debt": 31067.0,
+            "Total Liabilities": 315989.0,
+            "Total Stockholders' Equity": 442387.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 55441.0,
+            "Capital Expenditures": 35802.0,
+            "Free Cash Flow": 19639.0
+          },
+          "ratios": {
+            "Gross Margin": 0.672,
+            "Operating Margin": 0.4511,
+            "Net Profit Margin": 0.3974,
+            "Current Ratio": 1.2303,
+            "Debt Ratio": 0.4167,
+            "Free Cash Flow ($M)": 19639.0,
+            "FCF Margin": 0.2182
+          }
+        }
+      ],
+      "name": "MICROSOFT CORP",
+      "cik": 789019,
+      "ir_url": "https://www.microsoft.com/en-us/Investor/sec-filings"
+    },
+    "ORCL": {
+      "entity_name": "Oracle Corporation",
+      "fiscal_year_end_month": 5,
+      "fiscal_year_end": "May",
+      "quarters": [
+        {
+          "label": "FY2024 Q1",
+          "end": "2023-08-31",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 12453.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2216.0,
+            "Operating Income": 3296.0,
+            "Net Income": 2420.0,
+            "EPS (Diluted)": 0.86
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 11613.0,
+            "Marketable Securities (Current)": 470.0,
+            "Accounts Receivable, Net": 6519.0,
+            "Total Current Assets": 22166.0,
+            "Total Assets": 136662.0,
+            "Total Current Liabilities": 25357.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 133821.0,
+            "Total Stockholders' Equity": 2841.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 6974.0,
+            "Capital Expenditures": 1314.0,
+            "Free Cash Flow": 5660.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2647,
+            "Net Profit Margin": 0.1943,
+            "Current Ratio": 0.8742,
+            "Debt Ratio": 0.9792,
+            "Free Cash Flow ($M)": 5660.0,
+            "FCF Margin": 0.4545
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2023-11-30",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 12941.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2226.0,
+            "Operating Income": 3622.0,
+            "Net Income": 2503.0,
+            "EPS (Diluted)": 0.89
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 8244.0,
+            "Marketable Securities (Current)": 446.0,
+            "Accounts Receivable, Net": 6804.0,
+            "Total Current Assets": 19289.0,
+            "Total Assets": 134324.0,
+            "Total Current Liabilities": 24407.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 128142.0,
+            "Total Stockholders' Equity": 6182.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 143.0,
+            "Capital Expenditures": 1080.0,
+            "Free Cash Flow": -937.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2799,
+            "Net Profit Margin": 0.1934,
+            "Current Ratio": 0.7903,
+            "Debt Ratio": 0.954,
+            "Free Cash Flow ($M)": -937.0,
+            "FCF Margin": -0.0724
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-02-29",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 13280.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2248.0,
+            "Operating Income": 3750.0,
+            "Net Income": 2401.0,
+            "EPS (Diluted)": 0.85
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 9481.0,
+            "Marketable Securities (Current)": 423.0,
+            "Accounts Receivable, Net": 7297.0,
+            "Total Current Assets": 21063.0,
+            "Total Assets": 137082.0,
+            "Total Current Liabilities": 24885.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 130900.0,
+            "Total Stockholders' Equity": 6182.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 5475.0,
+            "Capital Expenditures": 1674.0,
+            "Free Cash Flow": 3801.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2824,
+            "Net Profit Margin": 0.1808,
+            "Current Ratio": 0.8464,
+            "Debt Ratio": 0.9549,
+            "Free Cash Flow ($M)": 3801.0,
+            "FCF Margin": 0.2862
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-05-31",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 14287.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2226.0,
+            "Operating Income": 4686.0,
+            "Net Income": 3144.0,
+            "EPS (Diluted)": 1.11
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10454.0,
+            "Marketable Securities (Current)": 207.0,
+            "Accounts Receivable, Net": 7874.0,
+            "Total Current Assets": 22554.0,
+            "Total Assets": 140976.0,
+            "Total Current Liabilities": 31544.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 131737.0,
+            "Total Stockholders' Equity": 9239.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 6081.0,
+            "Capital Expenditures": 2798.0,
+            "Free Cash Flow": 3283.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.328,
+            "Net Profit Margin": 0.2201,
+            "Current Ratio": 0.715,
+            "Debt Ratio": 0.9345,
+            "Free Cash Flow ($M)": 3283.0,
+            "FCF Margin": 0.2298
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2024-08-31",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 13307.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2306.0,
+            "Operating Income": 3991.0,
+            "Net Income": 2929.0,
+            "EPS (Diluted)": 1.03
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10616.0,
+            "Marketable Securities (Current)": 295.0,
+            "Accounts Receivable, Net": 8021.0,
+            "Total Current Assets": 23072.0,
+            "Total Assets": 144214.0,
+            "Total Current Liabilities": 32045.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 132945.0,
+            "Total Stockholders' Equity": 11269.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 7427.0,
+            "Capital Expenditures": 2303.0,
+            "Free Cash Flow": 5124.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2999,
+            "Net Profit Margin": 0.2201,
+            "Current Ratio": 0.72,
+            "Debt Ratio": 0.9219,
+            "Free Cash Flow ($M)": 5124.0,
+            "FCF Margin": 0.3851
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2024-11-30",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 14059.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2471.0,
+            "Operating Income": 4220.0,
+            "Net Income": 3151.0,
+            "EPS (Diluted)": 1.1
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10941.0,
+            "Marketable Securities (Current)": 370.0,
+            "Accounts Receivable, Net": 8177.0,
+            "Total Current Assets": 23503.0,
+            "Total Assets": 148483.0,
+            "Total Current Liabilities": 29052.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 134247.0,
+            "Total Stockholders' Equity": 14236.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 1304.0,
+            "Capital Expenditures": 3970.0,
+            "Free Cash Flow": -2666.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.3002,
+            "Net Profit Margin": 0.2241,
+            "Current Ratio": 0.809,
+            "Debt Ratio": 0.9041,
+            "Free Cash Flow ($M)": -2666.0,
+            "FCF Margin": -0.1896
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-02-28",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 14130.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2429.0,
+            "Operating Income": 4358.0,
+            "Net Income": 2936.0,
+            "EPS (Diluted)": 1.02
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 17406.0,
+            "Marketable Securities (Current)": 417.0,
+            "Accounts Receivable, Net": 8051.0,
+            "Total Current Assets": 30116.0,
+            "Total Assets": 161378.0,
+            "Total Current Liabilities": 29623.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 144117.0,
+            "Total Stockholders' Equity": 17261.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 5933.0,
+            "Capital Expenditures": 5862.0,
+            "Free Cash Flow": 71.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.3084,
+            "Net Profit Margin": 0.2078,
+            "Current Ratio": 1.0166,
+            "Debt Ratio": 0.893,
+            "Free Cash Flow ($M)": 71.0,
+            "FCF Margin": 0.005
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-05-31",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 15903.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2654.0,
+            "Operating Income": 5109.0,
+            "Net Income": 3427.0,
+            "EPS (Diluted)": 1.19
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10786.0,
+            "Marketable Securities (Current)": 417.0,
+            "Accounts Receivable, Net": 8558.0,
+            "Total Current Assets": 24579.0,
+            "Total Assets": 168361.0,
+            "Total Current Liabilities": 32643.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 147910.0,
+            "Total Stockholders' Equity": 20451.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 6157.0,
+            "Capital Expenditures": 9080.0,
+            "Free Cash Flow": -2923.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.3213,
+            "Net Profit Margin": 0.2155,
+            "Current Ratio": 0.753,
+            "Debt Ratio": 0.8785,
+            "Free Cash Flow ($M)": -2923.0,
+            "FCF Margin": -0.1838
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2025-08-31",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 14926.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2491.0,
+            "Operating Income": 4277.0,
+            "Net Income": 2927.0,
+            "EPS (Diluted)": 1.01
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 10445.0,
+            "Marketable Securities (Current)": 560.0,
+            "Accounts Receivable, Net": 8843.0,
+            "Total Current Assets": 24634.0,
+            "Total Assets": 180449.0,
+            "Total Current Liabilities": 39874.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 156295.0,
+            "Total Stockholders' Equity": 24154.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 8140.0,
+            "Capital Expenditures": 8502.0,
+            "Free Cash Flow": -362.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2865,
+            "Net Profit Margin": 0.1961,
+            "Current Ratio": 0.6178,
+            "Debt Ratio": 0.8661,
+            "Free Cash Flow ($M)": -362.0,
+            "FCF Margin": -0.0243
+          }
+        },
+        {
+          "label": "FY2026 Q2",
+          "end": "2025-11-30",
+          "fiscal_year": 2026,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 16058.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2561.0,
+            "Operating Income": 4731.0,
+            "Net Income": 6135.0,
+            "EPS (Diluted)": 2.1
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 19241.0,
+            "Marketable Securities (Current)": 525.0,
+            "Accounts Receivable, Net": 9440.0,
+            "Total Current Assets": 34366.0,
+            "Total Assets": 204984.0,
+            "Total Current Liabilities": 37795.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 175033.0,
+            "Total Stockholders' Equity": 29951.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 2066.0,
+            "Capital Expenditures": 12033.0,
+            "Free Cash Flow": -9967.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.2946,
+            "Net Profit Margin": 0.3821,
+            "Current Ratio": 0.9093,
+            "Debt Ratio": 0.8539,
+            "Free Cash Flow ($M)": -9967.0,
+            "FCF Margin": -0.6207
+          }
+        },
+        {
+          "label": "FY2026 Q3",
+          "end": "2026-02-28",
+          "fiscal_year": 2026,
+          "quarter": 3,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 17190.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2607.0,
+            "Operating Income": 5464.0,
+            "Net Income": 3721.0,
+            "EPS (Diluted)": 1.27
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 38455.0,
+            "Marketable Securities (Current)": 677.0,
+            "Accounts Receivable, Net": 10719.0,
+            "Total Current Assets": 54874.0,
+            "Total Assets": 245240.0,
+            "Total Current Liabilities": 40737.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 206745.0,
+            "Total Stockholders' Equity": 38495.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 7151.0,
+            "Capital Expenditures": 18635.0,
+            "Free Cash Flow": -11484.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.3179,
+            "Net Profit Margin": 0.2165,
+            "Current Ratio": 1.347,
+            "Debt Ratio": 0.843,
+            "Free Cash Flow ($M)": -11484.0,
+            "FCF Margin": -0.6681
+          }
+        },
+        {
+          "label": "FY2026 Q4",
+          "end": "2026-05-31",
+          "fiscal_year": 2026,
+          "quarter": 4,
+          "calendar_quarter": "2026 Q2",
+          "income": {
+            "Revenues": 19184.0,
+            "Cost of Revenue": null,
+            "Gross Profit": null,
+            "Research and Development": 2614.0,
+            "Operating Income": 6133.0,
+            "Net Income": 4304.0,
+            "EPS (Diluted)": 1.45
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 31289.0,
+            "Marketable Securities (Current)": 605.0,
+            "Accounts Receivable, Net": 10385.0,
+            "Total Current Assets": 46567.0,
+            "Total Assets": 261759.0,
+            "Total Current Liabilities": 41764.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 219251.0,
+            "Total Stockholders' Equity": 42508.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 14620.0,
+            "Capital Expenditures": 16493.0,
+            "Free Cash Flow": -1873.0
+          },
+          "ratios": {
+            "Gross Margin": null,
+            "Operating Margin": 0.3197,
+            "Net Profit Margin": 0.2244,
+            "Current Ratio": 1.115,
+            "Debt Ratio": 0.8376,
+            "Free Cash Flow ($M)": -1873.0,
+            "FCF Margin": -0.0976
+          }
+        }
+      ],
+      "name": "ORACLE CORP",
+      "cik": 1341439,
+      "ir_url": "https://investor.oracle.com/financials/default.aspx"
+    },
+    "PLTR": {
+      "entity_name": "Palantir Technologies Inc.",
+      "fiscal_year_end_month": 12,
+      "fiscal_year_end": "December",
+      "quarters": [
+        {
+          "label": "FY2023 Q3",
+          "end": "2023-09-30",
+          "fiscal_year": 2023,
+          "quarter": 3,
+          "calendar_quarter": "2023 Q3",
+          "income": {
+            "Revenues": 558.2,
+            "Cost of Revenue": 107.9,
+            "Gross Profit": 450.2,
+            "Research and Development": 105.7,
+            "Operating Income": 40.0,
+            "Net Income": 71.5,
+            "EPS (Diluted)": 0.03
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 1040.3,
+            "Marketable Securities (Current)": 2243.3,
+            "Accounts Receivable, Net": 430.3,
+            "Total Current Assets": 3809.4,
+            "Total Assets": 4193.4,
+            "Total Current Liabilities": 688.9,
+            "Long-term Debt": null,
+            "Total Liabilities": 921.5,
+            "Total Stockholders' Equity": 3271.9
+          },
+          "cashflow": {
+            "Operating Cash Flow": 133.4,
+            "Capital Expenditures": 1.6,
+            "Free Cash Flow": 131.8
+          },
+          "ratios": {
+            "Gross Margin": 0.8065,
+            "Operating Margin": 0.0717,
+            "Net Profit Margin": 0.1281,
+            "Current Ratio": 5.5297,
+            "Debt Ratio": 0.2198,
+            "Free Cash Flow ($M)": 131.8,
+            "FCF Margin": 0.2361
+          }
+        },
+        {
+          "label": "FY2023 Q4",
+          "end": "2023-12-31",
+          "fiscal_year": 2023,
+          "quarter": 4,
+          "calendar_quarter": "2023 Q4",
+          "income": {
+            "Revenues": 608.4,
+            "Cost of Revenue": 108.6,
+            "Gross Profit": 499.7,
+            "Research and Development": 109.3,
+            "Operating Income": 65.8,
+            "Net Income": 93.4,
+            "EPS (Diluted)": 0.04
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 831.0,
+            "Marketable Securities (Current)": 2843.1,
+            "Accounts Receivable, Net": 364.8,
+            "Total Current Assets": 4138.6,
+            "Total Assets": 4522.4,
+            "Total Current Liabilities": 746.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 961.5,
+            "Total Stockholders' Equity": 3561.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 301.2,
+            "Capital Expenditures": 4.9,
+            "Free Cash Flow": 296.3
+          },
+          "ratios": {
+            "Gross Margin": 0.8213,
+            "Operating Margin": 0.1082,
+            "Net Profit Margin": 0.1535,
+            "Current Ratio": 5.5477,
+            "Debt Ratio": 0.2126,
+            "Free Cash Flow ($M)": 296.3,
+            "FCF Margin": 0.487
+          }
+        },
+        {
+          "label": "FY2024 Q1",
+          "end": "2024-03-31",
+          "fiscal_year": 2024,
+          "quarter": 1,
+          "calendar_quarter": "2024 Q1",
+          "income": {
+            "Revenues": 634.3,
+            "Cost of Revenue": 116.3,
+            "Gross Profit": 518.1,
+            "Research and Development": 110.0,
+            "Operating Income": 80.9,
+            "Net Income": 105.5,
+            "EPS (Diluted)": 0.04
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 520.4,
+            "Marketable Securities (Current)": 3347.5,
+            "Accounts Receivable, Net": 487.0,
+            "Total Current Assets": 4436.1,
+            "Total Assets": 4807.1,
+            "Total Current Liabilities": 750.6,
+            "Long-term Debt": null,
+            "Total Liabilities": 945.9,
+            "Total Stockholders' Equity": 3861.2
+          },
+          "cashflow": {
+            "Operating Cash Flow": 129.6,
+            "Capital Expenditures": 2.7,
+            "Free Cash Flow": 126.9
+          },
+          "ratios": {
+            "Gross Margin": 0.8168,
+            "Operating Margin": 0.1275,
+            "Net Profit Margin": 0.1663,
+            "Current Ratio": 5.9101,
+            "Debt Ratio": 0.1968,
+            "Free Cash Flow ($M)": 126.9,
+            "FCF Margin": 0.2001
+          }
+        },
+        {
+          "label": "FY2024 Q2",
+          "end": "2024-06-30",
+          "fiscal_year": 2024,
+          "quarter": 2,
+          "calendar_quarter": "2024 Q2",
+          "income": {
+            "Revenues": 678.1,
+            "Cost of Revenue": 128.6,
+            "Gross Profit": 549.6,
+            "Research and Development": 108.8,
+            "Operating Income": 105.3,
+            "Net Income": 134.1,
+            "EPS (Diluted)": 0.06
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 512.7,
+            "Marketable Securities (Current)": 3485.8,
+            "Accounts Receivable, Net": 659.3,
+            "Total Current Assets": 4773.5,
+            "Total Assets": 5191.9,
+            "Total Current Liabilities": 806.9,
+            "Long-term Debt": null,
+            "Total Liabilities": 1054.1,
+            "Total Stockholders' Equity": 4137.8
+          },
+          "cashflow": {
+            "Operating Cash Flow": 144.2,
+            "Capital Expenditures": 2.9,
+            "Free Cash Flow": 141.3
+          },
+          "ratios": {
+            "Gross Margin": 0.8105,
+            "Operating Margin": 0.1553,
+            "Net Profit Margin": 0.1978,
+            "Current Ratio": 5.9159,
+            "Debt Ratio": 0.203,
+            "Free Cash Flow ($M)": 141.3,
+            "FCF Margin": 0.2084
+          }
+        },
+        {
+          "label": "FY2024 Q3",
+          "end": "2024-09-30",
+          "fiscal_year": 2024,
+          "quarter": 3,
+          "calendar_quarter": "2024 Q3",
+          "income": {
+            "Revenues": 725.5,
+            "Cost of Revenue": 146.6,
+            "Gross Profit": 578.9,
+            "Research and Development": 117.6,
+            "Operating Income": 113.1,
+            "Net Income": 143.5,
+            "EPS (Diluted)": 0.06
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 768.7,
+            "Marketable Securities (Current)": 3795.9,
+            "Accounts Receivable, Net": 668.1,
+            "Total Current Assets": 5352.0,
+            "Total Assets": 5768.1,
+            "Total Current Liabilities": 943.5,
+            "Long-term Debt": null,
+            "Total Liabilities": 1176.7,
+            "Total Stockholders' Equity": 4591.4
+          },
+          "cashflow": {
+            "Operating Cash Flow": 419.8,
+            "Capital Expenditures": 4.0,
+            "Free Cash Flow": 415.8
+          },
+          "ratios": {
+            "Gross Margin": 0.7979,
+            "Operating Margin": 0.1559,
+            "Net Profit Margin": 0.1978,
+            "Current Ratio": 5.6725,
+            "Debt Ratio": 0.204,
+            "Free Cash Flow ($M)": 415.8,
+            "FCF Margin": 0.5731
+          }
+        },
+        {
+          "label": "FY2024 Q4",
+          "end": "2024-12-31",
+          "fiscal_year": 2024,
+          "quarter": 4,
+          "calendar_quarter": "2024 Q4",
+          "income": {
+            "Revenues": 827.5,
+            "Cost of Revenue": 174.5,
+            "Gross Profit": 653.0,
+            "Research and Development": 171.5,
+            "Operating Income": 11.0,
+            "Net Income": 79.0,
+            "EPS (Diluted)": 0.03
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 2098.5,
+            "Marketable Securities (Current)": 3131.5,
+            "Accounts Receivable, Net": 575.0,
+            "Total Current Assets": 5934.3,
+            "Total Assets": 6340.9,
+            "Total Current Liabilities": 996.0,
+            "Long-term Debt": null,
+            "Total Liabilities": 1246.5,
+            "Total Stockholders' Equity": 5094.4
+          },
+          "cashflow": {
+            "Operating Cash Flow": 460.3,
+            "Capital Expenditures": 3.1,
+            "Free Cash Flow": 457.2
+          },
+          "ratios": {
+            "Gross Margin": 0.7891,
+            "Operating Margin": 0.0133,
+            "Net Profit Margin": 0.0955,
+            "Current Ratio": 5.9581,
+            "Debt Ratio": 0.1966,
+            "Free Cash Flow ($M)": 457.2,
+            "FCF Margin": 0.5525
+          }
+        },
+        {
+          "label": "FY2025 Q1",
+          "end": "2025-03-31",
+          "fiscal_year": 2025,
+          "quarter": 1,
+          "calendar_quarter": "2025 Q1",
+          "income": {
+            "Revenues": 883.9,
+            "Cost of Revenue": 173.0,
+            "Gross Profit": 710.9,
+            "Research and Development": 134.9,
+            "Operating Income": 176.0,
+            "Net Income": 214.0,
+            "EPS (Diluted)": 0.08
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 993.5,
+            "Marketable Securities (Current)": 4437.2,
+            "Accounts Receivable, Net": 725.2,
+            "Total Current Assets": 6282.6,
+            "Total Assets": 6736.9,
+            "Total Current Liabilities": 967.4,
+            "Long-term Debt": null,
+            "Total Liabilities": 1217.9,
+            "Total Stockholders' Equity": 5519.0
+          },
+          "cashflow": {
+            "Operating Cash Flow": 310.3,
+            "Capital Expenditures": 6.2,
+            "Free Cash Flow": 304.1
+          },
+          "ratios": {
+            "Gross Margin": 0.8043,
+            "Operating Margin": 0.1991,
+            "Net Profit Margin": 0.2421,
+            "Current Ratio": 6.4943,
+            "Debt Ratio": 0.1808,
+            "Free Cash Flow ($M)": 304.1,
+            "FCF Margin": 0.344
+          }
+        },
+        {
+          "label": "FY2025 Q2",
+          "end": "2025-06-30",
+          "fiscal_year": 2025,
+          "quarter": 2,
+          "calendar_quarter": "2025 Q2",
+          "income": {
+            "Revenues": 1003.7,
+            "Cost of Revenue": 192.9,
+            "Gross Profit": 810.8,
+            "Research and Development": 135.0,
+            "Operating Income": 269.3,
+            "Net Income": 326.7,
+            "EPS (Diluted)": 0.13
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 929.5,
+            "Marketable Securities (Current)": 5070.9,
+            "Accounts Receivable, Net": 747.5,
+            "Total Current Assets": 6890.4,
+            "Total Assets": 7365.7,
+            "Total Current Liabilities": 1089.6,
+            "Long-term Debt": null,
+            "Total Liabilities": 1340.1,
+            "Total Stockholders' Equity": 6025.6
+          },
+          "cashflow": {
+            "Operating Cash Flow": 539.3,
+            "Capital Expenditures": 7.6,
+            "Free Cash Flow": 531.7
+          },
+          "ratios": {
+            "Gross Margin": 0.8078,
+            "Operating Margin": 0.2683,
+            "Net Profit Margin": 0.3255,
+            "Current Ratio": 6.3238,
+            "Debt Ratio": 0.1819,
+            "Free Cash Flow ($M)": 531.7,
+            "FCF Margin": 0.5297
+          }
+        },
+        {
+          "label": "FY2025 Q3",
+          "end": "2025-09-30",
+          "fiscal_year": 2025,
+          "quarter": 3,
+          "calendar_quarter": "2025 Q3",
+          "income": {
+            "Revenues": 1181.1,
+            "Cost of Revenue": 207.3,
+            "Gross Profit": 973.8,
+            "Research and Development": 144.2,
+            "Operating Income": 393.3,
+            "Net Income": 475.6,
+            "EPS (Diluted)": 0.18
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 1616.0,
+            "Marketable Securities (Current)": 4821.9,
+            "Accounts Receivable, Net": 1005.9,
+            "Total Current Assets": 7586.2,
+            "Total Assets": 8114.0,
+            "Total Current Liabilities": 1180.4,
+            "Long-term Debt": null,
+            "Total Liabilities": 1425.7,
+            "Total Stockholders' Equity": 6590.5
+          },
+          "cashflow": {
+            "Operating Cash Flow": 507.7,
+            "Capital Expenditures": 6.8,
+            "Free Cash Flow": 500.9
+          },
+          "ratios": {
+            "Gross Margin": 0.8245,
+            "Operating Margin": 0.333,
+            "Net Profit Margin": 0.4027,
+            "Current Ratio": 6.4268,
+            "Debt Ratio": 0.1757,
+            "Free Cash Flow ($M)": 500.9,
+            "FCF Margin": 0.4241
+          }
+        },
+        {
+          "label": "FY2025 Q4",
+          "end": "2025-12-31",
+          "fiscal_year": 2025,
+          "quarter": 4,
+          "calendar_quarter": "2025 Q4",
+          "income": {
+            "Revenues": 1406.8,
+            "Cost of Revenue": 216.0,
+            "Gross Profit": 1190.8,
+            "Research and Development": 143.6,
+            "Operating Income": 575.4,
+            "Net Income": 608.7,
+            "EPS (Diluted)": 0.23
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 1423.8,
+            "Marketable Securities (Current)": 5753.2,
+            "Accounts Receivable, Net": 1042.1,
+            "Total Current Assets": 8358.2,
+            "Total Assets": 8900.4,
+            "Total Current Liabilities": 1175.6,
+            "Long-term Debt": null,
+            "Total Liabilities": 1412.4,
+            "Total Stockholders' Equity": 7387.3
+          },
+          "cashflow": {
+            "Operating Cash Flow": 777.3,
+            "Capital Expenditures": 13.3,
+            "Free Cash Flow": 764.0
+          },
+          "ratios": {
+            "Gross Margin": 0.8465,
+            "Operating Margin": 0.409,
+            "Net Profit Margin": 0.4327,
+            "Current Ratio": 7.1097,
+            "Debt Ratio": 0.1587,
+            "Free Cash Flow ($M)": 764.0,
+            "FCF Margin": 0.5431
+          }
+        },
+        {
+          "label": "FY2026 Q1",
+          "end": "2026-03-31",
+          "fiscal_year": 2026,
+          "quarter": 1,
+          "calendar_quarter": "2026 Q1",
+          "income": {
+            "Revenues": 1632.6,
+            "Cost of Revenue": 215.8,
+            "Gross Profit": 1416.8,
+            "Research and Development": 161.0,
+            "Operating Income": 754.0,
+            "Net Income": 870.5,
+            "EPS (Diluted)": 0.34
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 2291.6,
+            "Marketable Securities (Current)": 5734.8,
+            "Accounts Receivable, Net": 1405.6,
+            "Total Current Assets": 9551.7,
+            "Total Assets": 10199.2,
+            "Total Current Liabilities": 1382.9,
+            "Long-term Debt": null,
+            "Total Liabilities": 1642.9,
+            "Total Stockholders' Equity": 8556.3
+          },
+          "cashflow": {
+            "Operating Cash Flow": 899.2,
+            "Capital Expenditures": 7.4,
+            "Free Cash Flow": 891.8
+          },
+          "ratios": {
+            "Gross Margin": 0.8678,
+            "Operating Margin": 0.4618,
+            "Net Profit Margin": 0.5332,
+            "Current Ratio": 6.907,
+            "Debt Ratio": 0.1611,
+            "Free Cash Flow ($M)": 891.8,
+            "FCF Margin": 0.5462
+          }
+        },
+        {
+          "label": "FY2026 Q2",
+          "end": "2026-06-30",
+          "fiscal_year": 2026,
+          "quarter": 2,
+          "calendar_quarter": "2026 Q2",
+          "income": {
+            "Revenues": 1935.5,
+            "Cost of Revenue": 296.9,
+            "Gross Profit": 1638.6,
+            "Research and Development": 192.5,
+            "Operating Income": 912.0,
+            "Net Income": 1061.9,
+            "EPS (Diluted)": 0.41
+          },
+          "balance": {
+            "Cash and Cash Equivalents": 2030.0,
+            "Marketable Securities (Current)": 7379.1,
+            "Accounts Receivable, Net": 1485.2,
+            "Total Current Assets": 11099.5,
+            "Total Assets": 11678.6,
+            "Total Current Liabilities": 1535.6,
+            "Long-term Debt": null,
+            "Total Liabilities": 1793.7,
+            "Total Stockholders' Equity": 9774.2
+          },
+          "cashflow": {
+            "Operating Cash Flow": 1216.2,
+            "Capital Expenditures": 14.6,
+            "Free Cash Flow": 1201.6
+          },
+          "ratios": {
+            "Gross Margin": 0.8466,
+            "Operating Margin": 0.4712,
+            "Net Profit Margin": 0.5486,
+            "Current Ratio": 7.2281,
+            "Debt Ratio": 0.1536,
+            "Free Cash Flow ($M)": 1201.6,
+            "FCF Margin": 0.6208
+          }
+        }
+      ],
+      "name": "Palantir Technologies Inc.",
+      "cik": 1321655,
+      "ir_url": "https://investors.palantir.com/financials/quarterly-results"
+    }
+  },
+  "source": "SEC EDGAR XBRL companyfacts API",
+  "unit": "USD millions (EPS in USD)",
+  "ratio_formats": {
+    "Gross Margin": "percent",
+    "Operating Margin": "percent",
+    "Net Profit Margin": "percent",
+    "Current Ratio": "x",
+    "Debt Ratio": "percent",
+    "Free Cash Flow ($M)": "musd",
+    "FCF Margin": "percent"
+  },
+  "generated": "2026-08-05"
+}
