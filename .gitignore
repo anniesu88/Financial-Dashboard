@@ -3,6 +3,9 @@ input_pdf_file/
 parsed_pdf_file/
 *.pdf
 
+# --- Secrets (never commit; set these in the hosting platform's UI) ---
+.streamlit/secrets.toml
+
 # --- Personal / internal working files (not part of the published project) ---
 Reference/
 Archive/

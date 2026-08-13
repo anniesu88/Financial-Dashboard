@@ -415,6 +415,49 @@ practice and validating against real data.
 
 ---
 
+## ☁️ Deploying as a Website
+
+The dashboard runs on [Streamlit Community Cloud](https://share.streamlit.io/)
+with no code changes. Point it at this repository and set:
+
+| Setting | Value |
+|---|---|
+| Main file path | `dashboard_20260805.py` |
+| Python version | 3.11 |
+
+Then add two secrets in the app's **Settings → Secrets**:
+
+```toml
+SEC_CONTACT_EMAIL = "you@example.com"
+ADMIN_PASSWORD    = "pick-something-long"
+```
+
+### The admin gate
+
+Three features write to disk — **Add a company**, **Refresh all EDGAR data**,
+and the **Custom Ratio Builder**. On a hosted deployment every visitor shares
+one filesystem, and those writes also fire SEC requests carrying your contact
+email, so they sit behind a password:
+
+- **`ADMIN_PASSWORD` not set** (the normal local case) → everything is open,
+  exactly as it behaves when you run it on your own machine.
+- **`ADMIN_PASSWORD` set** (hosted) → visitors get a read-only dashboard: all
+  charts, ratios, formulas, and statements stay fully visible. Enter the
+  password in the sidebar to unlock the three write features.
+
+Two things to know about hosting:
+
+- **Changes are temporary.** The container's filesystem resets on restart, so
+  a company you add through the website disappears when the app sleeps or
+  redeploys. To make a change permanent, run the fetch locally and push the
+  updated JSON.
+- **Deploying from a private repo** requires granting Streamlit extra access
+  to your GitHub account, and free-tier quotas for private apps are limited —
+  check the current terms. Note also that the **app URL is public even when
+  the repository is private**, unless you restrict viewers in the app settings.
+
+---
+
 ## 📄 License & Data Source
 
 The **code** in this repository is released under the [MIT License](LICENSE).

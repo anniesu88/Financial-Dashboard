@@ -30,6 +30,7 @@ All monetary values are converted to USD millions (EPS stays in USD).
 import json
 import os
 import sys
+import time
 import urllib.request
 from collections import defaultdict
 from datetime import date, datetime
@@ -110,7 +111,25 @@ ACCEPTED_FORMS = {"10-Q", "10-Q/A", "10-K", "10-K/A"}
 # --------------------------------------------------------------------------
 # HTTP + registry helpers
 # --------------------------------------------------------------------------
+# SEC's fair-access policy caps clients at 10 requests/second and blocks IPs
+# that exceed it. A full refresh issues well over a hundred requests, so every
+# call goes through this throttle. fetch_annual_20260805.py calls _throttle()
+# too, so both fetchers share one rate budget.
+MIN_REQUEST_INTERVAL = 0.15   # ≈6.7 req/s — comfortably under SEC's limit
+_last_request = 0.0
+
+
+def _throttle():
+    """Block just long enough to keep the global request rate under the cap."""
+    global _last_request
+    wait = MIN_REQUEST_INTERVAL - (time.monotonic() - _last_request)
+    if wait > 0:
+        time.sleep(wait)
+    _last_request = time.monotonic()
+
+
 def http_json(url: str) -> dict:
+    _throttle()
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8"))

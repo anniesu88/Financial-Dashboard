@@ -22,6 +22,7 @@ New in v3 (over dashboard_20260717.py):
 """
 
 import argparse
+import hmac
 import json
 import re
 from pathlib import Path
@@ -329,6 +330,40 @@ q_ratio_formats = qdata.get("ratio_formats", fq.QUARTERLY_RATIO_FORMATS)
 custom_ratios = load_custom_ratios()
 
 
+# --------------------------------------------------------------------------
+# Admin gate for the features that WRITE files (add company / refresh data /
+# custom-ratio builder).
+#
+# Local runs have no secrets file, so ADMIN_PASSWORD is unset and everything
+# stays open — behaviour is unchanged. On a shared deployment (e.g. Streamlit
+# Community Cloud) set ADMIN_PASSWORD in the app's secrets: visitors then get
+# a read-only dashboard, because those writes hit one filesystem shared by
+# every viewer and drive SEC requests that carry your contact email.
+# --------------------------------------------------------------------------
+def _admin_password():
+    try:
+        return st.secrets.get("ADMIN_PASSWORD")
+    except Exception:
+        return None          # no secrets file at all -> local run
+
+
+def is_admin() -> bool:
+    password = _admin_password()
+    if not password:
+        return True          # unconfigured => open (local development)
+    if st.session_state.get("_admin_ok"):
+        return True
+    entered = st.text_input("Admin password", type="password", key="_admin_pw",
+                            help="Unlocks adding companies, refreshing data, "
+                                 "and the custom-ratio builder.")
+    if entered:
+        if hmac.compare_digest(entered, str(password)):
+            st.session_state["_admin_ok"] = True
+            return True
+        st.error("Incorrect password.")
+    return False
+
+
 def company_statements(ticker: str) -> dict:
     return {name: pd.DataFrame(records)
             for name, records in data["companies"][ticker]["statements"].items()}
@@ -379,46 +414,53 @@ with st.sidebar:
         st.caption(f"Source: {qdata.get('source', 'SEC EDGAR')} · "
                    f"fetched {qdata.get('generated', '?')}")
 
-    # ---- Add-company form (requirement 1) --------------------------------
+    # ---- Data-management tools (write to disk -> admin only) -------------
     st.divider()
-    with st.expander("➕ Add a company"):
-        st.caption(
-            "Give the stock ticker and the company's investor-relations "
-            "URL. Annual (10-K) and quarterly (10-Q) financials are both "
-            "downloaded from SEC EDGAR (the IR URL is stored as a "
-            "reference link).")
-        new_ticker = st.text_input("Ticker (US-listed)", key="new_ticker",
-                                   placeholder="e.g. AAPL")
-        new_url = st.text_input("Investor-relations URL", key="new_url",
-                                placeholder="https://investor.example.com/")
-        if st.button("Add & fetch quarterly data", type="primary"):
-            t = (new_ticker or "").strip().upper()
-            u = (new_url or "").strip()
-            if not t or not u:
-                st.error("Both ticker and IR URL are required.")
-            else:
+    admin = is_admin()
+    if admin:
+        if _admin_password():
+            st.caption("🔓 Admin mode. On a hosted deployment these changes "
+                       "are temporary — the container's filesystem resets on "
+                       "restart.")
+
+        with st.expander("➕ Add a company"):
+            st.caption(
+                "Give the stock ticker and the company's investor-relations "
+                "URL. Annual (10-K) and quarterly (10-Q) financials are both "
+                "downloaded from SEC EDGAR (the IR URL is stored as a "
+                "reference link).")
+            new_ticker = st.text_input("Ticker (US-listed)", key="new_ticker",
+                                       placeholder="e.g. AAPL")
+            new_url = st.text_input("Investor-relations URL", key="new_url",
+                                    placeholder="https://investor.example.com/")
+            if st.button("Add & fetch quarterly data", type="primary"):
+                t = (new_ticker or "").strip().upper()
+                u = (new_url or "").strip()
+                if not t or not u:
+                    st.error("Both ticker and IR URL are required.")
+                else:
+                    try:
+                        with st.spinner(f"Registering {t} and fetching EDGAR "
+                                        "data (annual + quarterly)…"):
+                            fq.add_company(t, u)
+                            fa.fetch_companies([t], log=lambda *_: None)
+                            fq.fetch_companies([t], log=lambda *_: None)
+                        load_data.clear()
+                        st.success(f"Added {t}. Reloading…")
+                        st.rerun()
+                    except Exception as exc:
+                        st.error(f"Could not add {t}: {exc}")
+
+        if quarterly_companies or annual_companies:
+            if st.button("🔄 Refresh all EDGAR data (annual + quarterly)"):
                 try:
-                    with st.spinner(f"Registering {t} and fetching EDGAR "
-                                    "data (annual + quarterly)…"):
-                        fq.add_company(t, u)
-                        fa.fetch_companies([t], log=lambda *_: None)
-                        fq.fetch_companies([t], log=lambda *_: None)
+                    with st.spinner("Refreshing from SEC EDGAR…"):
+                        fa.fetch_companies(log=lambda *_: None)
+                        fq.fetch_companies(log=lambda *_: None)
                     load_data.clear()
-                    st.success(f"Added {t}. Reloading…")
                     st.rerun()
                 except Exception as exc:
-                    st.error(f"Could not add {t}: {exc}")
-
-    if quarterly_companies or annual_companies:
-        if st.button("🔄 Refresh all EDGAR data (annual + quarterly)"):
-            try:
-                with st.spinner("Refreshing from SEC EDGAR…"):
-                    fa.fetch_companies(log=lambda *_: None)
-                    fq.fetch_companies(log=lambda *_: None)
-                load_data.clear()
-                st.rerun()
-            except Exception as exc:
-                st.error(f"Refresh failed: {exc}")
+                    st.error(f"Refresh failed: {exc}")
 
 st.title("📊 Financial Statements Dashboard")
 st.caption(f"Annual data generated {data.get('generated', '?')} · quarterly "
@@ -559,76 +601,80 @@ def annual_single():
     st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True,
                  height=min(38 * (len(rows) + 1), 800))
 
-    with st.expander("➕ Custom Ratio Builder"):
-        st.markdown(
-            "Define a new ratio as **numerator ÷ denominator**, picking any "
-            "line item from the extracted statements. Saved ratios persist in "
-            "`custom_ratios.json` and are computed for every company where the "
-            "line items can be matched.")
+    # The builder writes custom_ratios.json, a file every viewer shares, so it
+    # sits behind the same admin gate as the sidebar's data-management tools.
+    # Saved ratios themselves stay visible to everyone in the table above.
+    if admin:
+        with st.expander("➕ Custom Ratio Builder"):
+            st.markdown(
+                "Define a new ratio as **numerator ÷ denominator**, picking any "
+                "line item from the extracted statements. Saved ratios persist in "
+                "`custom_ratios.json` and are computed for every company where the "
+                "line items can be matched.")
 
-        # only statements with fiscal-year columns work in year-based ratios
-        # (the equity statement is a component matrix, not year columns)
-        stmt_options = [s for s, df in statements.items()
-                        if "Line Item" in df.columns
-                        and any(re.fullmatch(r"\d{4}", str(c)) for c in df.columns)]
+            # only statements with fiscal-year columns work in year-based ratios
+            # (the equity statement is a component matrix, not year columns)
+            stmt_options = [s for s, df in statements.items()
+                            if "Line Item" in df.columns
+                            and any(re.fullmatch(r"\d{4}", str(c)) for c in df.columns)]
 
-        def line_items_of(stmt):
-            return list(dict.fromkeys(statements[stmt]["Line Item"].tolist()))
+            def line_items_of(stmt):
+                return list(dict.fromkeys(statements[stmt]["Line Item"].tolist()))
 
-        c1, c2 = st.columns(2)
-        with c1:
-            st.markdown("**Numerator**")
-            num_stmt = st.selectbox("Statement", stmt_options, key="num_stmt")
-            num_item = st.selectbox("Line item", line_items_of(num_stmt), key="num_item")
-            num_avg = st.checkbox("Average with prior year", key="num_avg",
-                                  help="Use (current + prior year) / 2 — for balance-sheet items")
-            num_abs = st.checkbox("Use absolute value", key="num_abs",
-                                  help="For cash-outflow items reported as negative")
-        with c2:
-            st.markdown("**Denominator**")
-            den_stmt = st.selectbox("Statement", stmt_options, key="den_stmt")
-            den_item = st.selectbox("Line item", line_items_of(den_stmt), key="den_item")
-            den_avg = st.checkbox("Average with prior year", key="den_avg")
-            den_abs = st.checkbox("Use absolute value", key="den_abs")
+            c1, c2 = st.columns(2)
+            with c1:
+                st.markdown("**Numerator**")
+                num_stmt = st.selectbox("Statement", stmt_options, key="num_stmt")
+                num_item = st.selectbox("Line item", line_items_of(num_stmt), key="num_item")
+                num_avg = st.checkbox("Average with prior year", key="num_avg",
+                                      help="Use (current + prior year) / 2 — for balance-sheet items")
+                num_abs = st.checkbox("Use absolute value", key="num_abs",
+                                      help="For cash-outflow items reported as negative")
+            with c2:
+                st.markdown("**Denominator**")
+                den_stmt = st.selectbox("Statement", stmt_options, key="den_stmt")
+                den_item = st.selectbox("Line item", line_items_of(den_stmt), key="den_item")
+                den_avg = st.checkbox("Average with prior year", key="den_avg")
+                den_abs = st.checkbox("Use absolute value", key="den_abs")
 
-        c3, c4 = st.columns(2)
-        with c3:
-            ratio_name = st.text_input("Ratio name", key="ratio_name",
-                                       placeholder="e.g. R&D Intensity")
-        with c4:
-            ratio_format = st.radio("Display as", ["percent", "x"], horizontal=True,
-                                    key="ratio_format")
+            c3, c4 = st.columns(2)
+            with c3:
+                ratio_name = st.text_input("Ratio name", key="ratio_name",
+                                           placeholder="e.g. R&D Intensity")
+            with c4:
+                ratio_format = st.radio("Display as", ["percent", "x"], horizontal=True,
+                                        key="ratio_format")
 
-        if st.button("💾 Save custom ratio", type="primary"):
-            name = (ratio_name or "").strip()
-            if not name:
-                st.error("Please give the ratio a name.")
-            elif any(r["name"] == name for r in custom_ratios):
-                st.error(f"A custom ratio named '{name}' already exists.")
-            else:
-                custom_ratios.append({
-                    "name": name,
-                    "numerator": {"statement": num_stmt, "line_item": num_item,
-                                  "average": num_avg, "absolute": num_abs},
-                    "denominator": {"statement": den_stmt, "line_item": den_item,
-                                    "average": den_avg, "absolute": den_abs},
-                    "format": ratio_format,
-                })
-                save_custom_ratios(custom_ratios)
-                st.success(f"Saved '{name}'.")
-                st.rerun()
-
-        if custom_ratios:
-            st.markdown("**Saved custom ratios**")
-            for i, spec in enumerate(custom_ratios):
-                col_a, col_b = st.columns([5, 1])
-                col_a.markdown(
-                    f"- **{spec['name']}** = {spec['numerator']['line_item']} ÷ "
-                    f"{spec['denominator']['line_item']} ({spec.get('format', 'x')})")
-                if col_b.button("🗑️ Delete", key=f"del_{i}"):
-                    custom_ratios.pop(i)
+            if st.button("💾 Save custom ratio", type="primary"):
+                name = (ratio_name or "").strip()
+                if not name:
+                    st.error("Please give the ratio a name.")
+                elif any(r["name"] == name for r in custom_ratios):
+                    st.error(f"A custom ratio named '{name}' already exists.")
+                else:
+                    custom_ratios.append({
+                        "name": name,
+                        "numerator": {"statement": num_stmt, "line_item": num_item,
+                                      "average": num_avg, "absolute": num_abs},
+                        "denominator": {"statement": den_stmt, "line_item": den_item,
+                                        "average": den_avg, "absolute": den_abs},
+                        "format": ratio_format,
+                    })
                     save_custom_ratios(custom_ratios)
+                    st.success(f"Saved '{name}'.")
                     st.rerun()
+
+            if custom_ratios:
+                st.markdown("**Saved custom ratios**")
+                for i, spec in enumerate(custom_ratios):
+                    col_a, col_b = st.columns([5, 1])
+                    col_a.markdown(
+                        f"- **{spec['name']}** = {spec['numerator']['line_item']} ÷ "
+                        f"{spec['denominator']['line_item']} ({spec.get('format', 'x')})")
+                    if col_b.button("🗑️ Delete", key=f"del_{i}"):
+                        custom_ratios.pop(i)
+                        save_custom_ratios(custom_ratios)
+                        st.rerun()
 
     st.divider()
 

@@ -261,6 +261,7 @@ def list_10k_filings(cik: int, n: int) -> list:
 
 def http_text(url: str) -> str:
     import urllib.request
+    fq._throttle()          # shares one rate budget with the quarterly fetcher
     req = urllib.request.Request(url, headers={"User-Agent": fq.USER_AGENT})
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read().decode("utf-8", errors="replace")
