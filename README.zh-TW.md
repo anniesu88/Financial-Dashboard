@@ -186,6 +186,11 @@ python extract_financials_20260717.py input_pdf_file financial_data_all.json sta
 ├── custom_ratios.json             # 使用者自訂比率
 ├── financial_data_all.json        # 年度資料輸出（範例資料，凍結於產生當日）
 ├── quarterly_data.json            # 季度資料輸出（範例資料，凍結於產生當日）
+├── requirements.txt               # Python 相依套件
+├── README.md                      # 英文版說明
+├── README.zh-TW.md                # 本檔案（繁體中文）
+├── LICENSE                        # MIT（僅涵蓋程式碼，詳見授權與資料來源）
+├── .gitignore                     # 排除 PDF、secrets 與本機工作檔案
 ├── screenshots/                   # README 用的儀表板截圖
 └── statement_csvs/
     └── <TICKER>/                  # 每家公司的五大財報 CSV
@@ -310,6 +315,10 @@ flowchart TD
 
 - 執行環境：需要網際網路連線；SEC 要求 User-Agent 附聯絡信箱（見
   Quick Start 的 `SEC_CONTACT_EMAIL` 設定）。
+- **抓取過程刻意節流**：SEC 的公平存取政策限制每秒最多 10 次請求，超過會
+  封鎖 IP，因此兩支下載器共用一個約每秒 6.7 次的速率預算。單一公司的年度
+  抓取約需 19 次請求；重抓全部公司會花上數分鐘而非數十秒——這是正常現象，
+  不是當掉了。
 - IR 網址只作參考連結，程式**不會實際爬取**該網頁。
 - **會計年度非 12/31 結算的公司**：財季標籤與其他公司不同；跨公司
   比較視圖改以**日曆季**對齊，讓不同結算日的公司也能並排比較。

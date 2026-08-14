@@ -205,6 +205,10 @@ contains no parsable 10-K, the command refuses to overwrite the existing output.
 ├── financial_data_all.json        # Annual output (sample data, frozen at generation date)
 ├── quarterly_data.json            # Quarterly output (sample data, frozen at generation date)
 ├── requirements.txt               # Python dependencies
+├── README.md                      # This file (English)
+├── README.zh-TW.md                # Traditional Chinese version
+├── LICENSE                        # MIT (code only — see License & Data Source)
+├── .gitignore                     # Excludes PDFs, secrets, and local working files
 ├── screenshots/                   # Dashboard screenshots used in this README
 └── statement_csvs/
     └── <TICKER>/                  # Five financial statements per company, as CSV
@@ -352,6 +356,11 @@ Notes:
 
 - Runtime requirements: an internet connection, and a contact email in the
   User-Agent as SEC requires (see `SEC_CONTACT_EMAIL` in Quick Start).
+- **Fetches are deliberately throttled.** SEC's fair-access policy caps
+  clients at 10 requests/second and blocks IPs that exceed it, so both
+  fetchers share one rate budget of roughly 6.7 requests/second. A single
+  company's annual fetch issues about 19 requests; refreshing every company
+  takes a few minutes rather than a few seconds. That is expected, not a hang.
 - The IR URL is stored as a reference link only — the program **never scrapes
   that page**.
 - **Companies whose fiscal year doesn't end 12/31** label their quarters
